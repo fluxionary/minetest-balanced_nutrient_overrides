@@ -1,0 +1,11 @@
+{
+    "type": "MOD",
+    "name": "balanced_nutrient_overrides",
+    "title": "balanced_nutrient_overrides",
+    "license": "AGPL-3.0-or-later",
+    "media_license": "CC-BY-SA-4.0",
+    "repo": "https://github.com/fluxionary/minetest-balanced_nutrient_overrides.git",
+    "website": "https://github.com/fluxionary/minetest-balanced_nutrient_overrides",
+    "issue_tracker": "https://github.com/fluxionary/minetest-balanced_nutrient_overrides/issues",
+    "short_description": "TODO: write a description"
+}
