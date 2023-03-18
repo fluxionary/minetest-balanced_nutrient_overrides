@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("yl_easter:bunny", {
-	-- item_eat(1200)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 800,
 	nutrients = {

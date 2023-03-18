@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("mobs:bucket_milk", {
-	-- item_eat(2000, 'bucket:bucket_empty')
+	-- item_eat(8, 'bucket:bucket_empty')
+	replace_with = "bucket:bucket_empty",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -11,7 +12,7 @@ balanced_nutrient_overrides.register_food("mobs:bucket_milk", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:butter", {
-	-- item_eat(1600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 800,
 	nutrients = {
@@ -20,7 +21,7 @@ balanced_nutrient_overrides.register_food("mobs:butter", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:cheese", {
-	-- item_eat(2500)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -31,7 +32,7 @@ balanced_nutrient_overrides.register_food("mobs:cheese", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:chicken_cooked", {
-	-- item_eat(1000)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -41,7 +42,7 @@ balanced_nutrient_overrides.register_food("mobs:chicken_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:chicken_egg_fried", {
-	-- item_eat(2000)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -51,7 +52,7 @@ balanced_nutrient_overrides.register_food("mobs:chicken_egg_fried", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:chicken_raw", {
-	-- item_eat(750)
+	-- item_eat(2)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -62,7 +63,8 @@ balanced_nutrient_overrides.register_food("mobs:chicken_raw", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:glass_milk", {
-	-- item_eat(1600, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 1,
 	duration = 800,
 	nutrients = {
@@ -74,7 +76,7 @@ balanced_nutrient_overrides.register_food("mobs:glass_milk", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:honey", {
-	-- item_eat(600)
+	-- item_eat(4)
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -83,7 +85,7 @@ balanced_nutrient_overrides.register_food("mobs:honey", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:mutton_cooked", {
-	-- item_eat(1000)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -93,7 +95,7 @@ balanced_nutrient_overrides.register_food("mobs:mutton_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:mutton_raw", {
-	-- item_eat(1000)
+	-- item_eat(2)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -104,7 +106,7 @@ balanced_nutrient_overrides.register_food("mobs:mutton_raw", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:pork_cooked", {
-	-- item_eat(1000)
+	-- item_eat(8)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -114,7 +116,7 @@ balanced_nutrient_overrides.register_food("mobs:pork_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:pork_raw", {
-	-- item_eat(750)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -125,7 +127,7 @@ balanced_nutrient_overrides.register_food("mobs:pork_raw", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:rabbit_cooked", {
-	-- item_eat(1000)
+	-- item_eat(5)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -135,7 +137,7 @@ balanced_nutrient_overrides.register_food("mobs:rabbit_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:rabbit_raw", {
-	-- item_eat(666.666666666667)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -146,7 +148,7 @@ balanced_nutrient_overrides.register_food("mobs:rabbit_raw", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:rat_cooked", {
-	-- item_eat(1000)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {

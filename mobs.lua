@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("mobs:meat", {
-	-- item_eat(1000)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -9,7 +9,7 @@ balanced_nutrient_overrides.register_food("mobs:meat", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:meat_raw", {
-	-- item_eat(666.666666666667)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -20,7 +20,7 @@ balanced_nutrient_overrides.register_food("mobs:meat_raw", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:meatblock", {
-	-- item_eat(1200)
+	-- item_eat(20)
 	saturation = 20,
 	duration = 1000,
 	nutrients = {
@@ -30,7 +30,7 @@ balanced_nutrient_overrides.register_food("mobs:meatblock", {
 })
 
 balanced_nutrient_overrides.register_food("mobs:meatblock_raw", {
-	-- item_eat(600)
+	-- item_eat(20)
 	saturation = 20,
 	duration = 500,
 	nutrients = {

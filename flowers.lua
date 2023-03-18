@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("flowers:mushroom_brown", {
-	-- item_eat(800)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 400,
 	nutrients = {
@@ -9,7 +9,7 @@ balanced_nutrient_overrides.register_food("flowers:mushroom_brown", {
 })
 
 balanced_nutrient_overrides.register_food("flowers:mushroom_red", {
-	-- item_eat(800)
+	-- item_eat(0)
 	saturation = 1,
 	duration = 400,
 	nutrients = {

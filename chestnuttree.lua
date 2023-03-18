@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("chestnuttree:bur", {
-	-- item_eat(1200)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -11,7 +11,7 @@ balanced_nutrient_overrides.register_food("chestnuttree:bur", {
 })
 
 balanced_nutrient_overrides.register_food("chestnuttree:fruit", {
-	-- item_eat(1200)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 600,
 	nutrients = {

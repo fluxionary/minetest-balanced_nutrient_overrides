@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("bbq:bacon", {
-	-- item_eat(350)
+	-- item_eat(7)
 	saturation = 4,
 	duration = 700,
 	nutrients = {
@@ -9,7 +9,7 @@ balanced_nutrient_overrides.register_food("bbq:bacon", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bacon_cheeseburger", {
-	-- item_eat(571.428571428571)
+	-- item_eat(9)
 	saturation = 7,
 	duration = 1200,
 	nutrients = {
@@ -21,7 +21,7 @@ balanced_nutrient_overrides.register_food("bbq:bacon_cheeseburger", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bacon_raw", {
-	-- item_eat(166.666666666667)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 250,
 	nutrients = {
@@ -32,7 +32,7 @@ balanced_nutrient_overrides.register_food("bbq:bacon_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bbq_beef_ribs", {
-	-- item_eat(333.333333333333)
+	-- item_eat(9)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -42,7 +42,7 @@ balanced_nutrient_overrides.register_food("bbq:bbq_beef_ribs", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bbq_beef_ribs_raw", {
-	-- item_eat(150)
+	-- item_eat(9)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -53,7 +53,7 @@ balanced_nutrient_overrides.register_food("bbq:bbq_beef_ribs_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bbq_chicken", {
-	-- item_eat(300)
+	-- item_eat(8)
 	saturation = 6,
 	duration = 600,
 	nutrients = {
@@ -63,7 +63,7 @@ balanced_nutrient_overrides.register_food("bbq:bbq_chicken", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:bbq_chicken_raw", {
-	-- item_eat(200)
+	-- item_eat(8)
 	saturation = 3,
 	duration = 300,
 	nutrients = {
@@ -74,7 +74,7 @@ balanced_nutrient_overrides.register_food("bbq:bbq_chicken_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:beef", {
-	-- item_eat(1800)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -84,7 +84,7 @@ balanced_nutrient_overrides.register_food("bbq:beef", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:beef_jerky", {
-	-- item_eat(666.666666666667)
+	-- item_eat(5)
 	saturation = 2,
 	duration = 1600,
 	nutrients = {
@@ -95,7 +95,7 @@ balanced_nutrient_overrides.register_food("bbq:beef_jerky", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:beef_jerky_raw", {
-	-- item_eat(480)
+	-- item_eat(5)
 	saturation = 1,
 	duration = 800,
 	nutrients = {
@@ -107,7 +107,7 @@ balanced_nutrient_overrides.register_food("bbq:beef_jerky_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:beef_raw", {
-	-- item_eat(900)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -118,7 +118,7 @@ balanced_nutrient_overrides.register_food("bbq:beef_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:blooming_onion", {
-	-- item_eat(377.142857142857)
+	-- item_eat(6)
 	saturation = 5,
 	duration = 1200,
 	nutrients = {
@@ -129,7 +129,7 @@ balanced_nutrient_overrides.register_food("bbq:blooming_onion", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:brisket", {
-	-- item_eat(364.285714285714)
+	-- item_eat(9)
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -140,7 +140,7 @@ balanced_nutrient_overrides.register_food("bbq:brisket", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:brisket_raw", {
-	-- item_eat(240)
+	-- item_eat(9)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -153,7 +153,7 @@ balanced_nutrient_overrides.register_food("bbq:brisket_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:cheese_pizza", {
-	-- item_eat(480)
+	-- item_eat(3)
 	saturation = 5,
 	duration = 800,
 	nutrients = {
@@ -165,7 +165,7 @@ balanced_nutrient_overrides.register_food("bbq:cheese_pizza", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:cheese_pizza_raw", {
-	-- item_eat(75)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 200,
 	nutrients = {
@@ -177,7 +177,7 @@ balanced_nutrient_overrides.register_food("bbq:cheese_pizza_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:cheese_steak", {
-	-- item_eat(862.5)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 1500,
 	nutrients = {
@@ -189,7 +189,8 @@ balanced_nutrient_overrides.register_food("bbq:cheese_steak", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:corn_dog", {
-	-- item_eat(500, 'group:stick')
+	-- item_eat(3, 'group:stick')
+	replace_with = "group:stick",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -200,7 +201,8 @@ balanced_nutrient_overrides.register_food("bbq:corn_dog", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:corn_dog_raw", {
-	-- item_eat(333.333333333333, 'group:stick')
+	-- item_eat(1, 'group:stick')
+	replace_with = "group:stick",
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -212,7 +214,7 @@ balanced_nutrient_overrides.register_food("bbq:corn_dog_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:cornbread", {
-	-- item_eat(1500)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -223,7 +225,7 @@ balanced_nutrient_overrides.register_food("bbq:cornbread", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:corned_beef", {
-	-- item_eat(600)
+	-- item_eat(10)
 	saturation = 8,
 	duration = 1600,
 	nutrients = {
@@ -233,7 +235,7 @@ balanced_nutrient_overrides.register_food("bbq:corned_beef", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:corned_beef_raw", {
-	-- item_eat(300)
+	-- item_eat(10)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -244,7 +246,7 @@ balanced_nutrient_overrides.register_food("bbq:corned_beef_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:deluxe_pizza", {
-	-- item_eat(720)
+	-- item_eat(8)
 	saturation = 10,
 	duration = 2000,
 	nutrients = {
@@ -256,7 +258,7 @@ balanced_nutrient_overrides.register_food("bbq:deluxe_pizza", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:deluxe_pizza_raw", {
-	-- item_eat(115.555555555556)
+	-- item_eat(1)
 	saturation = 5,
 	duration = 400,
 	nutrients = {
@@ -269,7 +271,7 @@ balanced_nutrient_overrides.register_food("bbq:deluxe_pizza_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:fish_sticks", {
-	-- item_eat(600)
+	-- item_eat(3)
 	saturation = 6,
 	duration = 1200,
 	nutrients = {
@@ -280,7 +282,7 @@ balanced_nutrient_overrides.register_food("bbq:fish_sticks", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:french_fries", {
-	-- item_eat(533.333333333333)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -290,7 +292,7 @@ balanced_nutrient_overrides.register_food("bbq:french_fries", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:garlic_bread", {
-	-- item_eat(440)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -301,7 +303,7 @@ balanced_nutrient_overrides.register_food("bbq:garlic_bread", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:garlic_dough", {
-	-- item_eat(75)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 100,
 	nutrients = {
@@ -311,7 +313,7 @@ balanced_nutrient_overrides.register_food("bbq:garlic_dough", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:grilled_corn", {
-	-- item_eat(250)
+	-- item_eat(8)
 	saturation = 2,
 	duration = 400,
 	nutrients = {
@@ -321,7 +323,7 @@ balanced_nutrient_overrides.register_food("bbq:grilled_corn", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:grilled_pizza", {
-	-- item_eat(408.333333333333)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 1400,
 	nutrients = {
@@ -333,7 +335,7 @@ balanced_nutrient_overrides.register_food("bbq:grilled_pizza", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:grilled_tomato", {
-	-- item_eat(900)
+	-- item_eat(5)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -343,7 +345,7 @@ balanced_nutrient_overrides.register_food("bbq:grilled_tomato", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:ground_meat", {
-	-- item_eat(300)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -353,7 +355,7 @@ balanced_nutrient_overrides.register_food("bbq:ground_meat", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:ground_meat_raw", {
-	-- item_eat(200)
+	-- item_eat(4)
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -364,7 +366,7 @@ balanced_nutrient_overrides.register_food("bbq:ground_meat_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:ham", {
-	-- item_eat(731.428571428571)
+	-- item_eat(9)
 	saturation = 7,
 	duration = 1600,
 	nutrients = {
@@ -375,7 +377,7 @@ balanced_nutrient_overrides.register_food("bbq:ham", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:ham_raw", {
-	-- item_eat(800)
+	-- item_eat(9)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -387,7 +389,7 @@ balanced_nutrient_overrides.register_food("bbq:ham_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hamburger", {
-	-- item_eat(1020)
+	-- item_eat(9)
 	saturation = 5,
 	duration = 1200,
 	nutrients = {
@@ -399,7 +401,7 @@ balanced_nutrient_overrides.register_food("bbq:hamburger", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hamburger_patty", {
-	-- item_eat(600)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -409,7 +411,7 @@ balanced_nutrient_overrides.register_food("bbq:hamburger_patty", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hamburger_patty_raw", {
-	-- item_eat(600)
+	-- item_eat(8)
 	saturation = 2,
 	duration = 400,
 	nutrients = {
@@ -420,7 +422,7 @@ balanced_nutrient_overrides.register_food("bbq:hamburger_patty_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hawaiian_pizza", {
-	-- item_eat(617.142857142857)
+	-- item_eat(5)
 	saturation = 5,
 	duration = 1200,
 	nutrients = {
@@ -432,7 +434,7 @@ balanced_nutrient_overrides.register_food("bbq:hawaiian_pizza", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hawaiian_pizza_raw", {
-	-- item_eat(150)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -445,7 +447,7 @@ balanced_nutrient_overrides.register_food("bbq:hawaiian_pizza_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hot_wings", {
-	-- item_eat(480)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -457,7 +459,7 @@ balanced_nutrient_overrides.register_food("bbq:hot_wings", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hot_wings_raw", {
-	-- item_eat(250)
+	-- item_eat(8)
 	saturation = 2,
 	duration = 400,
 	nutrients = {
@@ -468,7 +470,7 @@ balanced_nutrient_overrides.register_food("bbq:hot_wings_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hotdog", {
-	-- item_eat(1250)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -479,7 +481,7 @@ balanced_nutrient_overrides.register_food("bbq:hotdog", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hotdog_cooked", {
-	-- item_eat(311.111111111111)
+	-- item_eat(7)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -490,7 +492,7 @@ balanced_nutrient_overrides.register_food("bbq:hotdog_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:hotdog_raw", {
-	-- item_eat(160)
+	-- item_eat(7)
 	saturation = 2,
 	duration = 400,
 	nutrients = {
@@ -502,7 +504,8 @@ balanced_nutrient_overrides.register_food("bbq:hotdog_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:lamb_kebab", {
-	-- item_eat(514.285714285714, 'group:stick')
+	-- item_eat(4, 'group:stick')
+	replace_with = "group:stick",
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -514,7 +517,8 @@ balanced_nutrient_overrides.register_food("bbq:lamb_kebab", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:lamb_kebab_raw", {
-	-- item_eat(222.222222222222, 'group:stick')
+	-- item_eat(4, 'group:stick')
+	replace_with = "group:stick",
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -527,7 +531,7 @@ balanced_nutrient_overrides.register_food("bbq:lamb_kebab_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:lasagna", {
-	-- item_eat(857.142857142857)
+	-- item_eat(4)
 	saturation = 7,
 	duration = 1200,
 	nutrients = {
@@ -539,7 +543,7 @@ balanced_nutrient_overrides.register_food("bbq:lasagna", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:leg_lamb", {
-	-- item_eat(541.666666666667)
+	-- item_eat(9)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -550,7 +554,7 @@ balanced_nutrient_overrides.register_food("bbq:leg_lamb", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:leg_lamb_raw", {
-	-- item_eat(333.333333333333)
+	-- item_eat(9)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -561,7 +565,7 @@ balanced_nutrient_overrides.register_food("bbq:leg_lamb_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:london_broil", {
-	-- item_eat(1000)
+	-- item_eat(7)
 	saturation = 8,
 	duration = 1600,
 	nutrients = {
@@ -571,7 +575,7 @@ balanced_nutrient_overrides.register_food("bbq:london_broil", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:london_broil_raw", {
-	-- item_eat(666.666666666667)
+	-- item_eat(7)
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -582,7 +586,8 @@ balanced_nutrient_overrides.register_food("bbq:london_broil_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:marinara", {
-	-- item_eat(640, 'vessels:glass_bottle')
+	-- item_eat(6, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -592,7 +597,7 @@ balanced_nutrient_overrides.register_food("bbq:marinara", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:meatloaf", {
-	-- item_eat(728.571428571429)
+	-- item_eat(5)
 	saturation = 7,
 	duration = 1200,
 	nutrients = {
@@ -604,7 +609,7 @@ balanced_nutrient_overrides.register_food("bbq:meatloaf", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:meatloaf_raw", {
-	-- item_eat(533.333333333333)
+	-- item_eat(5)
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -616,7 +621,7 @@ balanced_nutrient_overrides.register_food("bbq:meatloaf_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:onion_rings", {
-	-- item_eat(375)
+	-- item_eat(3)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -627,7 +632,7 @@ balanced_nutrient_overrides.register_food("bbq:onion_rings", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:onion_slice", {
-	-- item_eat(150)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -636,7 +641,7 @@ balanced_nutrient_overrides.register_food("bbq:onion_slice", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pasta", {
-	-- item_eat(75)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -645,7 +650,7 @@ balanced_nutrient_overrides.register_food("bbq:pasta", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pepper_steak", {
-	-- item_eat(800)
+	-- item_eat(10)
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -656,7 +661,7 @@ balanced_nutrient_overrides.register_food("bbq:pepper_steak", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pepper_steak_raw", {
-	-- item_eat(600)
+	-- item_eat(10)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -668,7 +673,7 @@ balanced_nutrient_overrides.register_food("bbq:pepper_steak_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pepperoni", {
-	-- item_eat(1200)
+	-- item_eat(8)
 	saturation = 6,
 	duration = 1800,
 	nutrients = {
@@ -679,7 +684,7 @@ balanced_nutrient_overrides.register_food("bbq:pepperoni", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pepperoni_pizza", {
-	-- item_eat(1125)
+	-- item_eat(5)
 	saturation = 8,
 	duration = 2000,
 	nutrients = {
@@ -691,7 +696,7 @@ balanced_nutrient_overrides.register_food("bbq:pepperoni_pizza", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pepperoni_pizza_raw", {
-	-- item_eat(200)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -703,7 +708,8 @@ balanced_nutrient_overrides.register_food("bbq:pepperoni_pizza_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pickled_peppers", {
-	-- item_eat(583.333333333333, 'vessels:drinking_glass')
+	-- item_eat(5, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 4,
 	duration = 700,
 	nutrients = {
@@ -713,7 +719,7 @@ balanced_nutrient_overrides.register_food("bbq:pickled_peppers", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:portebello_steak", {
-	-- item_eat(640)
+	-- item_eat(9)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -724,7 +730,7 @@ balanced_nutrient_overrides.register_food("bbq:portebello_steak", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:potato_crisps", {
-	-- item_eat(200)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -734,7 +740,7 @@ balanced_nutrient_overrides.register_food("bbq:potato_crisps", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:potato_slice", {
-	-- item_eat(150)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -743,7 +749,7 @@ balanced_nutrient_overrides.register_food("bbq:potato_slice", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:pulled_pork", {
-	-- item_eat(2166.66666666667)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 2000,
 	nutrients = {
@@ -755,7 +761,7 @@ balanced_nutrient_overrides.register_food("bbq:pulled_pork", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:quesadilla", {
-	-- item_eat(1213.33333333333)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 1400,
 	nutrients = {
@@ -767,7 +773,7 @@ balanced_nutrient_overrides.register_food("bbq:quesadilla", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:rack_lamb", {
-	-- item_eat(666.666666666667)
+	-- item_eat(10)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -779,7 +785,7 @@ balanced_nutrient_overrides.register_food("bbq:rack_lamb", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:rack_lamb_raw", {
-	-- item_eat(388.888888888889)
+	-- item_eat(10)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -791,7 +797,8 @@ balanced_nutrient_overrides.register_food("bbq:rack_lamb_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:salsa", {
-	-- item_eat(480, 'vessels:glass_bottle')
+	-- item_eat(6, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -801,7 +808,7 @@ balanced_nutrient_overrides.register_food("bbq:salsa", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:smoked_pepper", {
-	-- item_eat(900)
+	-- item_eat(5)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -811,7 +818,7 @@ balanced_nutrient_overrides.register_food("bbq:smoked_pepper", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:spaghetti", {
-	-- item_eat(1422.22222222222)
+	-- item_eat(3)
 	saturation = 6,
 	duration = 1600,
 	nutrients = {
@@ -821,7 +828,7 @@ balanced_nutrient_overrides.register_food("bbq:spaghetti", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:stuffed_chop", {
-	-- item_eat(1083.33333333333)
+	-- item_eat(8)
 	saturation = 8,
 	duration = 2000,
 	nutrients = {
@@ -833,7 +840,7 @@ balanced_nutrient_overrides.register_food("bbq:stuffed_chop", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:stuffed_chop_raw", {
-	-- item_eat(550)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -846,7 +853,7 @@ balanced_nutrient_overrides.register_food("bbq:stuffed_chop_raw", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:stuffed_mushroom", {
-	-- item_eat(500)
+	-- item_eat(9)
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -857,7 +864,7 @@ balanced_nutrient_overrides.register_food("bbq:stuffed_mushroom", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:stuffed_pepper", {
-	-- item_eat(533.333333333333)
+	-- item_eat(9)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -869,7 +876,7 @@ balanced_nutrient_overrides.register_food("bbq:stuffed_pepper", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:super_taco", {
-	-- item_eat(864)
+	-- item_eat(6)
 	saturation = 5,
 	duration = 1200,
 	nutrients = {
@@ -881,7 +888,7 @@ balanced_nutrient_overrides.register_food("bbq:super_taco", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:taco", {
-	-- item_eat(1050)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -893,7 +900,8 @@ balanced_nutrient_overrides.register_food("bbq:taco", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:tomato_sauce", {
-	-- item_eat(400, 'vessels:glass_bottle')
+	-- item_eat(2, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -903,7 +911,7 @@ balanced_nutrient_overrides.register_food("bbq:tomato_sauce", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:tomato_slice", {
-	-- item_eat(300)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -912,7 +920,7 @@ balanced_nutrient_overrides.register_food("bbq:tomato_slice", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:tortilla", {
-	-- item_eat(200)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -922,7 +930,8 @@ balanced_nutrient_overrides.register_food("bbq:tortilla", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:veggie_kebab", {
-	-- item_eat(350, 'group:stick')
+	-- item_eat(8, 'group:stick')
+	replace_with = "group:stick",
 	saturation = 4,
 	duration = 700,
 	nutrients = {
@@ -933,7 +942,8 @@ balanced_nutrient_overrides.register_food("bbq:veggie_kebab", {
 })
 
 balanced_nutrient_overrides.register_food("bbq:veggie_packet", {
-	-- item_eat(250, 'bbq:foil')
+	-- item_eat(5, 'bbq:foil')
+	replace_with = "bbq:foil",
 	saturation = 6,
 	duration = 700,
 	nutrients = {

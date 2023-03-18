@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("cherrytree:cherries", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {

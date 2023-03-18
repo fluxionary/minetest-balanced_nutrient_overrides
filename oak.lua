@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("oak:acorn", {
-	-- item_eat(1600)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 800,
 	nutrients = {

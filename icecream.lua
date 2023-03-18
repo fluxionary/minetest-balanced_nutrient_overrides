@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("icecream:apple", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -10,7 +10,7 @@ balanced_nutrient_overrides.register_food("icecream:apple", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:banana", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -20,7 +20,7 @@ balanced_nutrient_overrides.register_food("icecream:banana", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:blueberries", {
-	-- item_eat(375)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -31,7 +31,7 @@ balanced_nutrient_overrides.register_food("icecream:blueberries", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:carrot", {
-	-- item_eat(375)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -42,7 +42,7 @@ balanced_nutrient_overrides.register_food("icecream:carrot", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:chocolate", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -53,7 +53,7 @@ balanced_nutrient_overrides.register_food("icecream:chocolate", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:chocolate_with_cookies", {
-	-- item_eat(910)
+	-- item_eat(12)
 	saturation = 5,
 	duration = 700,
 	nutrients = {
@@ -64,7 +64,7 @@ balanced_nutrient_overrides.register_food("icecream:chocolate_with_cookies", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:cone", {
-	-- item_eat(300)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -73,7 +73,7 @@ balanced_nutrient_overrides.register_food("icecream:cone", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:dough", {
-	-- item_eat(300)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -84,7 +84,7 @@ balanced_nutrient_overrides.register_food("icecream:dough", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:garlic", {
-	-- item_eat(375)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -95,7 +95,7 @@ balanced_nutrient_overrides.register_food("icecream:garlic", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:grapes", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -106,7 +106,7 @@ balanced_nutrient_overrides.register_food("icecream:grapes", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:mint", {
-	-- item_eat(375)
+	-- item_eat(12)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -117,7 +117,7 @@ balanced_nutrient_overrides.register_food("icecream:mint", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:notcone", {
-	-- item_eat(150)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -126,7 +126,7 @@ balanced_nutrient_overrides.register_food("icecream:notcone", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:orange", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -137,7 +137,7 @@ balanced_nutrient_overrides.register_food("icecream:orange", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:pineapple", {
-	-- item_eat(375)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -148,7 +148,7 @@ balanced_nutrient_overrides.register_food("icecream:pineapple", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:pumpkin", {
-	-- item_eat(375)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -159,7 +159,7 @@ balanced_nutrient_overrides.register_food("icecream:pumpkin", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:raspberry", {
-	-- item_eat(375)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -170,7 +170,7 @@ balanced_nutrient_overrides.register_food("icecream:raspberry", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:strawberry", {
-	-- item_eat(375)
+	-- item_eat(10)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -181,7 +181,7 @@ balanced_nutrient_overrides.register_food("icecream:strawberry", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:vanilla", {
-	-- item_eat(375)
+	-- item_eat(10)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -192,7 +192,7 @@ balanced_nutrient_overrides.register_food("icecream:vanilla", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:vanilla_with_cookies", {
-	-- item_eat(910)
+	-- item_eat(12)
 	saturation = 5,
 	duration = 700,
 	nutrients = {
@@ -203,7 +203,7 @@ balanced_nutrient_overrides.register_food("icecream:vanilla_with_cookies", {
 })
 
 balanced_nutrient_overrides.register_food("icecream:watermelon", {
-	-- item_eat(300)
+	-- item_eat(6)
 	saturation = 5,
 	duration = 500,
 	nutrients = {

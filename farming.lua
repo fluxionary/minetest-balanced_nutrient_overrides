@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("farming:apple_pie", {
-	-- item_eat(800)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -11,7 +11,7 @@ balanced_nutrient_overrides.register_food("farming:apple_pie", {
 })
 
 balanced_nutrient_overrides.register_food("farming:artichoke", {
-	-- item_eat(600)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -21,7 +21,7 @@ balanced_nutrient_overrides.register_food("farming:artichoke", {
 })
 
 balanced_nutrient_overrides.register_food("farming:asparagus", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -30,7 +30,7 @@ balanced_nutrient_overrides.register_food("farming:asparagus", {
 })
 
 balanced_nutrient_overrides.register_food("farming:baked_potato", {
-	-- item_eat(1000)
+	-- item_eat(6)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -39,7 +39,7 @@ balanced_nutrient_overrides.register_food("farming:baked_potato", {
 })
 
 balanced_nutrient_overrides.register_food("farming:beans", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -49,7 +49,7 @@ balanced_nutrient_overrides.register_food("farming:beans", {
 })
 
 balanced_nutrient_overrides.register_food("farming:beetroot", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -58,7 +58,8 @@ balanced_nutrient_overrides.register_food("farming:beetroot", {
 })
 
 balanced_nutrient_overrides.register_food("farming:beetroot_soup", {
-	-- item_eat(457.142857142857, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 6,
 	duration = 1200,
 	nutrients = {
@@ -69,7 +70,8 @@ balanced_nutrient_overrides.register_food("farming:beetroot_soup", {
 })
 
 balanced_nutrient_overrides.register_food("farming:bibimbap", {
-	-- item_eat(777.777777777778, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 8,
 	duration = 2000,
 	nutrients = {
@@ -81,7 +83,7 @@ balanced_nutrient_overrides.register_food("farming:bibimbap", {
 })
 
 balanced_nutrient_overrides.register_food("farming:blackberry", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -91,7 +93,7 @@ balanced_nutrient_overrides.register_food("farming:blackberry", {
 })
 
 balanced_nutrient_overrides.register_food("farming:blueberries", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -101,7 +103,7 @@ balanced_nutrient_overrides.register_food("farming:blueberries", {
 })
 
 balanced_nutrient_overrides.register_food("farming:blueberry_pie", {
-	-- item_eat(800)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -113,7 +115,7 @@ balanced_nutrient_overrides.register_food("farming:blueberry_pie", {
 })
 
 balanced_nutrient_overrides.register_food("farming:bread", {
-	-- item_eat(1000)
+	-- item_eat(5)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -122,7 +124,7 @@ balanced_nutrient_overrides.register_food("farming:bread", {
 })
 
 balanced_nutrient_overrides.register_food("farming:bread_multigrain", {
-	-- item_eat(555.555555555556)
+	-- item_eat(7)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -132,7 +134,7 @@ balanced_nutrient_overrides.register_food("farming:bread_multigrain", {
 })
 
 balanced_nutrient_overrides.register_food("farming:bread_slice", {
-	-- item_eat(500)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 1000,
 	nutrients = {
@@ -141,7 +143,7 @@ balanced_nutrient_overrides.register_food("farming:bread_slice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:burger", {
-	-- item_eat(857.142857142857)
+	-- item_eat(16)
 	saturation = 10,
 	duration = 2000,
 	nutrients = {
@@ -153,7 +155,7 @@ balanced_nutrient_overrides.register_food("farming:burger", {
 })
 
 balanced_nutrient_overrides.register_food("farming:cabbage", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -162,7 +164,8 @@ balanced_nutrient_overrides.register_food("farming:cabbage", {
 })
 
 balanced_nutrient_overrides.register_food("farming:cactus_juice", {
-	-- item_eat(300, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -172,7 +175,7 @@ balanced_nutrient_overrides.register_food("farming:cactus_juice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:carrot", {
-	-- item_eat(900)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -182,7 +185,7 @@ balanced_nutrient_overrides.register_food("farming:carrot", {
 })
 
 balanced_nutrient_overrides.register_food("farming:carrot_gold", {
-	-- item_eat(2500)
+	-- item_eat(10)
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -192,7 +195,8 @@ balanced_nutrient_overrides.register_food("farming:carrot_gold", {
 })
 
 balanced_nutrient_overrides.register_food("farming:carrot_juice", {
-	-- item_eat(800, 'vessels:drinking_glass')
+	-- item_eat(4, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -202,7 +206,7 @@ balanced_nutrient_overrides.register_food("farming:carrot_juice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:cheese_vegan", {
-	-- item_eat(240)
+	-- item_eat(2)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -213,7 +217,8 @@ balanced_nutrient_overrides.register_food("farming:cheese_vegan", {
 })
 
 balanced_nutrient_overrides.register_food("farming:chili_bowl", {
-	-- item_eat(720, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 6,
 	duration = 1200,
 	nutrients = {
@@ -225,7 +230,7 @@ balanced_nutrient_overrides.register_food("farming:chili_bowl", {
 })
 
 balanced_nutrient_overrides.register_food("farming:chili_pepper", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -234,7 +239,7 @@ balanced_nutrient_overrides.register_food("farming:chili_pepper", {
 })
 
 balanced_nutrient_overrides.register_food("farming:chili_powder", {
-	-- item_eat(1200)
+	-- item_eat(0)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -244,7 +249,7 @@ balanced_nutrient_overrides.register_food("farming:chili_powder", {
 })
 
 balanced_nutrient_overrides.register_food("farming:chocolate_dark", {
-	-- item_eat(711.111111111111)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -256,7 +261,8 @@ balanced_nutrient_overrides.register_food("farming:chocolate_dark", {
 })
 
 balanced_nutrient_overrides.register_food("farming:coffee_cup", {
-	-- item_eat(600, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -265,7 +271,7 @@ balanced_nutrient_overrides.register_food("farming:coffee_cup", {
 })
 
 balanced_nutrient_overrides.register_food("farming:cookie", {
-	-- item_eat(533.333333333333)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -276,7 +282,7 @@ balanced_nutrient_overrides.register_food("farming:cookie", {
 })
 
 balanced_nutrient_overrides.register_food("farming:corn", {
-	-- item_eat(600)
+	-- item_eat(3)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -285,7 +291,7 @@ balanced_nutrient_overrides.register_food("farming:corn", {
 })
 
 balanced_nutrient_overrides.register_food("farming:corn_cob", {
-	-- item_eat(600)
+	-- item_eat(5)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -294,7 +300,7 @@ balanced_nutrient_overrides.register_food("farming:corn_cob", {
 })
 
 balanced_nutrient_overrides.register_food("farming:cucumber", {
-	-- item_eat(600)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -304,7 +310,7 @@ balanced_nutrient_overrides.register_food("farming:cucumber", {
 })
 
 balanced_nutrient_overrides.register_food("farming:donut", {
-	-- item_eat(342.857142857143)
+	-- item_eat(4)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -314,7 +320,7 @@ balanced_nutrient_overrides.register_food("farming:donut", {
 })
 
 balanced_nutrient_overrides.register_food("farming:donut_apple", {
-	-- item_eat(1333.33333333333)
+	-- item_eat(6)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -325,7 +331,7 @@ balanced_nutrient_overrides.register_food("farming:donut_apple", {
 })
 
 balanced_nutrient_overrides.register_food("farming:donut_chocolate", {
-	-- item_eat(1333.33333333333)
+	-- item_eat(6)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -335,7 +341,7 @@ balanced_nutrient_overrides.register_food("farming:donut_chocolate", {
 })
 
 balanced_nutrient_overrides.register_food("farming:eggplant", {
-	-- item_eat(600)
+	-- item_eat(3)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -344,7 +350,7 @@ balanced_nutrient_overrides.register_food("farming:eggplant", {
 })
 
 balanced_nutrient_overrides.register_food("farming:flan", {
-	-- item_eat(300)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -354,7 +360,7 @@ balanced_nutrient_overrides.register_food("farming:flan", {
 })
 
 balanced_nutrient_overrides.register_food("farming:garlic", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -364,7 +370,7 @@ balanced_nutrient_overrides.register_food("farming:garlic", {
 })
 
 balanced_nutrient_overrides.register_food("farming:garlic_bread", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -374,7 +380,7 @@ balanced_nutrient_overrides.register_food("farming:garlic_bread", {
 })
 
 balanced_nutrient_overrides.register_food("farming:ginger", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -384,13 +390,14 @@ balanced_nutrient_overrides.register_food("farming:ginger", {
 
 balanced_nutrient_overrides.register_food("farming:glass_water", {
 	-- item_eat(0, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 0,
 	duration = 0,
 	nutrients = {},
 })
 
 balanced_nutrient_overrides.register_food("farming:grapes", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -400,7 +407,7 @@ balanced_nutrient_overrides.register_food("farming:grapes", {
 })
 
 balanced_nutrient_overrides.register_food("farming:gyoza", {
-	-- item_eat(533.333333333333)
+	-- item_eat(4)
 	saturation = 3,
 	duration = 1200,
 	nutrients = {
@@ -412,7 +419,7 @@ balanced_nutrient_overrides.register_food("farming:gyoza", {
 })
 
 balanced_nutrient_overrides.register_food("farming:jaffa_cake", {
-	-- item_eat(416.666666666667)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -424,7 +431,7 @@ balanced_nutrient_overrides.register_food("farming:jaffa_cake", {
 })
 
 balanced_nutrient_overrides.register_food("farming:lettuce", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -433,7 +440,8 @@ balanced_nutrient_overrides.register_food("farming:lettuce", {
 })
 
 balanced_nutrient_overrides.register_food("farming:mac_and_cheese", {
-	-- item_eat(600, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -444,7 +452,7 @@ balanced_nutrient_overrides.register_food("farming:mac_and_cheese", {
 })
 
 balanced_nutrient_overrides.register_food("farming:melon_slice", {
-	-- item_eat(300)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -453,7 +461,8 @@ balanced_nutrient_overrides.register_food("farming:melon_slice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:mint_tea", {
-	-- item_eat(400, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -462,7 +471,7 @@ balanced_nutrient_overrides.register_food("farming:mint_tea", {
 })
 
 balanced_nutrient_overrides.register_food("farming:mochi", {
-	-- item_eat(583.333333333333)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -471,7 +480,7 @@ balanced_nutrient_overrides.register_food("farming:mochi", {
 })
 
 balanced_nutrient_overrides.register_food("farming:muffin_blueberry", {
-	-- item_eat(416.666666666667)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -483,7 +492,7 @@ balanced_nutrient_overrides.register_food("farming:muffin_blueberry", {
 })
 
 balanced_nutrient_overrides.register_food("farming:onigiri", {
-	-- item_eat(1000)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -493,7 +502,7 @@ balanced_nutrient_overrides.register_food("farming:onigiri", {
 })
 
 balanced_nutrient_overrides.register_food("farming:onion", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -502,7 +511,8 @@ balanced_nutrient_overrides.register_food("farming:onion", {
 })
 
 balanced_nutrient_overrides.register_food("farming:onion_soup", {
-	-- item_eat(274.285714285714, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 5,
 	duration = 800,
 	nutrients = {
@@ -512,7 +522,8 @@ balanced_nutrient_overrides.register_food("farming:onion_soup", {
 })
 
 balanced_nutrient_overrides.register_food("farming:paella", {
-	-- item_eat(571.428571428571, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 8,
 	duration = 1600,
 	nutrients = {
@@ -524,7 +535,7 @@ balanced_nutrient_overrides.register_food("farming:paella", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pea_pod", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -534,7 +545,8 @@ balanced_nutrient_overrides.register_food("farming:pea_pod", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pea_soup", {
-	-- item_eat(371.428571428571, 'farming:bowl')
+	-- item_eat(4, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -546,7 +558,7 @@ balanced_nutrient_overrides.register_food("farming:pea_soup", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pepper", {
-	-- item_eat(600)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -555,7 +567,7 @@ balanced_nutrient_overrides.register_food("farming:pepper", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pepper_red", {
-	-- item_eat(600)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -564,7 +576,7 @@ balanced_nutrient_overrides.register_food("farming:pepper_red", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pepper_yellow", {
-	-- item_eat(600)
+	-- item_eat(3)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -574,7 +586,8 @@ balanced_nutrient_overrides.register_food("farming:pepper_yellow", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pineapple_juice", {
-	-- item_eat(200, 'vessels:drinking_glass')
+	-- item_eat(4, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -584,7 +597,7 @@ balanced_nutrient_overrides.register_food("farming:pineapple_juice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pineapple_ring", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -594,7 +607,7 @@ balanced_nutrient_overrides.register_food("farming:pineapple_ring", {
 })
 
 balanced_nutrient_overrides.register_food("farming:popcorn", {
-	-- item_eat(1000)
+	-- item_eat(4)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -604,7 +617,8 @@ balanced_nutrient_overrides.register_food("farming:popcorn", {
 })
 
 balanced_nutrient_overrides.register_food("farming:porridge", {
-	-- item_eat(833.333333333333, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -615,7 +629,7 @@ balanced_nutrient_overrides.register_food("farming:porridge", {
 })
 
 balanced_nutrient_overrides.register_food("farming:potato", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -624,7 +638,8 @@ balanced_nutrient_overrides.register_food("farming:potato", {
 })
 
 balanced_nutrient_overrides.register_food("farming:potato_omelet", {
-	-- item_eat(576, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 5,
 	duration = 1200,
 	nutrients = {
@@ -635,7 +650,8 @@ balanced_nutrient_overrides.register_food("farming:potato_omelet", {
 })
 
 balanced_nutrient_overrides.register_food("farming:potato_salad", {
-	-- item_eat(400, 'farming:bowl')
+	-- item_eat(10, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 600,
 	nutrients = {
@@ -645,7 +661,7 @@ balanced_nutrient_overrides.register_food("farming:potato_salad", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pumpkin_bread", {
-	-- item_eat(666.666666666667)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -656,7 +672,7 @@ balanced_nutrient_overrides.register_food("farming:pumpkin_bread", {
 })
 
 balanced_nutrient_overrides.register_food("farming:pumpkin_slice", {
-	-- item_eat(300)
+	-- item_eat(2)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -666,7 +682,7 @@ balanced_nutrient_overrides.register_food("farming:pumpkin_slice", {
 })
 
 balanced_nutrient_overrides.register_food("farming:raspberries", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -676,7 +692,7 @@ balanced_nutrient_overrides.register_food("farming:raspberries", {
 })
 
 balanced_nutrient_overrides.register_food("farming:rhubarb", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -685,7 +701,7 @@ balanced_nutrient_overrides.register_food("farming:rhubarb", {
 })
 
 balanced_nutrient_overrides.register_food("farming:rhubarb_pie", {
-	-- item_eat(800)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -697,7 +713,7 @@ balanced_nutrient_overrides.register_food("farming:rhubarb_pie", {
 })
 
 balanced_nutrient_overrides.register_food("farming:rice_bread", {
-	-- item_eat(1000)
+	-- item_eat(5)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -706,7 +722,8 @@ balanced_nutrient_overrides.register_food("farming:rice_bread", {
 })
 
 balanced_nutrient_overrides.register_food("farming:salad", {
-	-- item_eat(200, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -717,7 +734,8 @@ balanced_nutrient_overrides.register_food("farming:salad", {
 })
 
 balanced_nutrient_overrides.register_food("farming:smoothie_berry", {
-	-- item_eat(187.5, 'vessels:drinking_glass')
+	-- item_eat(6, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -727,7 +745,8 @@ balanced_nutrient_overrides.register_food("farming:smoothie_berry", {
 })
 
 balanced_nutrient_overrides.register_food("farming:smoothie_raspberry", {
-	-- item_eat(333.333333333333, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -737,7 +756,8 @@ balanced_nutrient_overrides.register_food("farming:smoothie_raspberry", {
 })
 
 balanced_nutrient_overrides.register_food("farming:soy_milk", {
-	-- item_eat(400, 'vessels:drinking_glass')
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -748,7 +768,7 @@ balanced_nutrient_overrides.register_food("farming:soy_milk", {
 })
 
 balanced_nutrient_overrides.register_food("farming:spaghetti", {
-	-- item_eat(675)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -758,7 +778,8 @@ balanced_nutrient_overrides.register_food("farming:spaghetti", {
 })
 
 balanced_nutrient_overrides.register_food("farming:spanish_potatoes", {
-	-- item_eat(533.333333333333, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 6,
 	duration = 1600,
 	nutrients = {
@@ -770,7 +791,7 @@ balanced_nutrient_overrides.register_food("farming:spanish_potatoes", {
 })
 
 balanced_nutrient_overrides.register_food("farming:spinach", {
-	-- item_eat(300)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -779,7 +800,7 @@ balanced_nutrient_overrides.register_food("farming:spinach", {
 })
 
 balanced_nutrient_overrides.register_food("farming:sunflower_bread", {
-	-- item_eat(1250)
+	-- item_eat(8)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -790,7 +811,7 @@ balanced_nutrient_overrides.register_food("farming:sunflower_bread", {
 })
 
 balanced_nutrient_overrides.register_food("farming:sunflower_seeds_toasted", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -800,7 +821,7 @@ balanced_nutrient_overrides.register_food("farming:sunflower_seeds_toasted", {
 })
 
 balanced_nutrient_overrides.register_food("farming:toast", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -809,7 +830,7 @@ balanced_nutrient_overrides.register_food("farming:toast", {
 })
 
 balanced_nutrient_overrides.register_food("farming:toast_sandwich", {
-	-- item_eat(1000)
+	-- item_eat(4)
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -818,7 +839,7 @@ balanced_nutrient_overrides.register_food("farming:toast_sandwich", {
 })
 
 balanced_nutrient_overrides.register_food("farming:tofu", {
-	-- item_eat(1000)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -828,7 +849,7 @@ balanced_nutrient_overrides.register_food("farming:tofu", {
 })
 
 balanced_nutrient_overrides.register_food("farming:tofu_cooked", {
-	-- item_eat(1000)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -838,7 +859,7 @@ balanced_nutrient_overrides.register_food("farming:tofu_cooked", {
 })
 
 balanced_nutrient_overrides.register_food("farming:tomato", {
-	-- item_eat(600)
+	-- item_eat(4)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -848,7 +869,8 @@ balanced_nutrient_overrides.register_food("farming:tomato", {
 })
 
 balanced_nutrient_overrides.register_food("farming:tomato_soup", {
-	-- item_eat(357.142857142857, 'farming:bowl')
+	-- item_eat(8, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -858,7 +880,7 @@ balanced_nutrient_overrides.register_food("farming:tomato_soup", {
 })
 
 balanced_nutrient_overrides.register_food("farming:turkish_delight", {
-	-- item_eat(500)
+	-- item_eat(2)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -868,7 +890,7 @@ balanced_nutrient_overrides.register_food("farming:turkish_delight", {
 })
 
 balanced_nutrient_overrides.register_food("farming:vanilla", {
-	-- item_eat(600)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {

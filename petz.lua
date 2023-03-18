@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("petz:beef", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 5,
 	duration = 500,
 	nutrients = {
@@ -10,7 +10,7 @@ balanced_nutrient_overrides.register_food("petz:beef", {
 })
 
 balanced_nutrient_overrides.register_food("petz:blueberry_cheese_cake", {
-	-- item_eat(625)
+	-- item_eat(6)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -22,7 +22,7 @@ balanced_nutrient_overrides.register_food("petz:blueberry_cheese_cake", {
 })
 
 balanced_nutrient_overrides.register_food("petz:blueberry_ice_cream", {
-	-- item_eat(326.666666666667)
+	-- item_eat(7)
 	saturation = 3,
 	duration = 700,
 	nutrients = {
@@ -34,7 +34,7 @@ balanced_nutrient_overrides.register_food("petz:blueberry_ice_cream", {
 })
 
 balanced_nutrient_overrides.register_food("petz:blueberry_muffin", {
-	-- item_eat(280)
+	-- item_eat(4)
 	saturation = 2,
 	duration = 700,
 	nutrients = {
@@ -45,7 +45,7 @@ balanced_nutrient_overrides.register_food("petz:blueberry_muffin", {
 })
 
 balanced_nutrient_overrides.register_food("petz:candy_cane", {
-	-- item_eat(6000)
+	-- item_eat(6)
 	saturation = 1,
 	duration = 500,
 	nutrients = {
@@ -55,7 +55,7 @@ balanced_nutrient_overrides.register_food("petz:candy_cane", {
 })
 
 balanced_nutrient_overrides.register_food("petz:chicken_egg", {
-	-- item_eat(1000)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -66,7 +66,7 @@ balanced_nutrient_overrides.register_food("petz:chicken_egg", {
 })
 
 balanced_nutrient_overrides.register_food("petz:chicken_legs", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -77,7 +77,8 @@ balanced_nutrient_overrides.register_food("petz:chicken_legs", {
 })
 
 balanced_nutrient_overrides.register_food("petz:chicken_legs_bucket", {
-	-- item_eat(1800, 'bucket:bucket_empty')
+	-- item_eat(12, 'bucket:bucket_empty')
+	replace_with = "bucket:bucket_empty",
 	saturation = 12,
 	duration = 1200,
 	nutrients = {
@@ -87,7 +88,7 @@ balanced_nutrient_overrides.register_food("petz:chicken_legs_bucket", {
 })
 
 balanced_nutrient_overrides.register_food("petz:ducky_egg", {
-	-- item_eat(1000)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -98,7 +99,7 @@ balanced_nutrient_overrides.register_food("petz:ducky_egg", {
 })
 
 balanced_nutrient_overrides.register_food("petz:fried_egg", {
-	-- item_eat(1000)
+	-- item_eat(4)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -108,7 +109,7 @@ balanced_nutrient_overrides.register_food("petz:fried_egg", {
 })
 
 balanced_nutrient_overrides.register_food("petz:fried_egg_bacon", {
-	-- item_eat(1200)
+	-- item_eat(6)
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -118,7 +119,7 @@ balanced_nutrient_overrides.register_food("petz:fried_egg_bacon", {
 })
 
 balanced_nutrient_overrides.register_food("petz:frog_leg", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -129,7 +130,7 @@ balanced_nutrient_overrides.register_food("petz:frog_leg", {
 })
 
 balanced_nutrient_overrides.register_food("petz:frog_leg_roasted", {
-	-- item_eat(1000)
+	-- item_eat(3)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -139,7 +140,7 @@ balanced_nutrient_overrides.register_food("petz:frog_leg_roasted", {
 })
 
 balanced_nutrient_overrides.register_food("petz:gingerbread_cookie", {
-	-- item_eat(7200)
+	-- item_eat(8)
 	saturation = 2,
 	duration = 1200,
 	nutrients = {
@@ -149,7 +150,8 @@ balanced_nutrient_overrides.register_food("petz:gingerbread_cookie", {
 })
 
 balanced_nutrient_overrides.register_food("petz:honey_bottle", {
-	-- item_eat(900, 'vessels:glass_bottle')
+	-- item_eat(7, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -159,6 +161,7 @@ balanced_nutrient_overrides.register_food("petz:honey_bottle", {
 
 balanced_nutrient_overrides.register_food("petz:lycanthropy_remedy", {
 	-- item_eat(0, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
 	saturation = 0,
 	duration = 0,
 	nutrients = {},
@@ -166,7 +169,7 @@ balanced_nutrient_overrides.register_food("petz:lycanthropy_remedy", {
 })
 
 balanced_nutrient_overrides.register_food("petz:mini_lamb_chop", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -177,7 +180,7 @@ balanced_nutrient_overrides.register_food("petz:mini_lamb_chop", {
 })
 
 balanced_nutrient_overrides.register_food("petz:penguin_egg", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -188,7 +191,7 @@ balanced_nutrient_overrides.register_food("petz:penguin_egg", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_chicken", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -199,7 +202,7 @@ balanced_nutrient_overrides.register_food("petz:raw_chicken", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_ducky", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -210,7 +213,7 @@ balanced_nutrient_overrides.register_food("petz:raw_ducky", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_goat", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 5,
 	duration = 500,
 	nutrients = {
@@ -221,7 +224,7 @@ balanced_nutrient_overrides.register_food("petz:raw_goat", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_parrot", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -232,7 +235,7 @@ balanced_nutrient_overrides.register_food("petz:raw_parrot", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_porkchop", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 5,
 	duration = 500,
 	nutrients = {
@@ -243,7 +246,7 @@ balanced_nutrient_overrides.register_food("petz:raw_porkchop", {
 })
 
 balanced_nutrient_overrides.register_food("petz:raw_rabbit", {
-	-- item_eat(1000)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -254,7 +257,7 @@ balanced_nutrient_overrides.register_food("petz:raw_rabbit", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_chicken", {
-	-- item_eat(1000)
+	-- item_eat(3)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -264,7 +267,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_chicken", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_chicken_legs", {
-	-- item_eat(1000)
+	-- item_eat(5)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -274,7 +277,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_chicken_legs", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_ducky", {
-	-- item_eat(1000)
+	-- item_eat(3)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -284,7 +287,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_ducky", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_goat_meat", {
-	-- item_eat(1250)
+	-- item_eat(4)
 	saturation = 8,
 	duration = 1000,
 	nutrients = {
@@ -294,7 +297,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_goat_meat", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_lamb_chop", {
-	-- item_eat(1333.33333333333)
+	-- item_eat(3)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -304,7 +307,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_lamb_chop", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_parrot", {
-	-- item_eat(1200)
+	-- item_eat(2)
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -314,7 +317,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_parrot", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_porkchop", {
-	-- item_eat(1125)
+	-- item_eat(3)
 	saturation = 8,
 	duration = 1000,
 	nutrients = {
@@ -324,7 +327,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_porkchop", {
 })
 
 balanced_nutrient_overrides.register_food("petz:roasted_rabbit", {
-	-- item_eat(1200)
+	-- item_eat(3)
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -334,7 +337,7 @@ balanced_nutrient_overrides.register_food("petz:roasted_rabbit", {
 })
 
 balanced_nutrient_overrides.register_food("petz:steak", {
-	-- item_eat(1250)
+	-- item_eat(3)
 	saturation = 8,
 	duration = 1000,
 	nutrients = {

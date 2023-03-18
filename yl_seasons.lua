@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie", {
-	-- item_eat(960)
+	-- item_eat(7)
 	saturation = 6,
 	duration = 1200,
 	nutrients = {
@@ -11,7 +11,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie_raw", {
-	-- item_eat(375)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -24,7 +24,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie_raw", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:artichoke_roasted", {
-	-- item_eat(600)
+	-- item_eat(5)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -34,7 +34,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:artichoke_roasted", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:baked_apple", {
-	-- item_eat(800)
+	-- item_eat(5)
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -44,7 +44,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:baked_apple", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:borscht", {
-	-- item_eat(840, 'farming:bowl')
+	-- item_eat(9, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 8,
 	duration = 1400,
 	nutrients = {
@@ -56,7 +57,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:borscht", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:chicken_artichoke", {
-	-- item_eat(829.62962962963)
+	-- item_eat(10)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -68,7 +69,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:chicken_artichoke", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white", {
-	-- item_eat(711.111111111111)
+	-- item_eat(4)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -80,7 +81,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_cookie", {
-	-- item_eat(666.666666666667)
+	-- item_eat(3)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -91,7 +92,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_cookie", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_strawberry", {
-	-- item_eat(750)
+	-- item_eat(5)
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -103,7 +104,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_strawberry
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:cocoa_butter", {
-	-- item_eat(1600)
+	-- item_eat(2)
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -112,7 +113,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:cocoa_butter", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:gingerbread", {
-	-- item_eat(428.571428571429)
+	-- item_eat(8)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -124,7 +125,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:gingerbread", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:gulab_jamun", {
-	-- item_eat(666.666666666667, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -136,7 +138,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:gulab_jamun", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:hot_chocolate", {
-	-- item_eat(1600, 'vessels:drinking_glass')
+	-- item_eat(4, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -148,7 +151,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:hot_chocolate", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:lamb_strawberry_mint", {
-	-- item_eat(1137.77777777778)
+	-- item_eat(7)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -160,7 +163,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:lamb_strawberry_mint", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:mashed_potatoes", {
-	-- item_eat(660, 'farming:bowl')
+	-- item_eat(6, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -172,7 +176,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:mashed_potatoes", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:oliebol", {
-	-- item_eat(600, 'cucina_vegana:plate')
+	-- item_eat(6, 'cucina_vegana:plate')
+	replace_with = "cucina_vegana:plate",
 	saturation = 8,
 	duration = 1000,
 	nutrients = {
@@ -184,7 +189,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:oliebol", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:praline", {
-	-- item_eat(450)
+	-- item_eat(6)
 	saturation = 7,
 	duration = 700,
 	nutrients = {
@@ -196,7 +201,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:praline", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:pretzel", {
-	-- item_eat(1111.11111111111)
+	-- item_eat(5)
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -206,7 +211,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:pretzel", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:pretzel_raw", {
-	-- item_eat(450)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -216,7 +221,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:pretzel_raw", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:raisins", {
-	-- item_eat(600)
+	-- item_eat(5)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -226,7 +231,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:raisins", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:rhubarb_cheesecake", {
-	-- item_eat(948.148148148148)
+	-- item_eat(7)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -238,7 +243,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:rhubarb_cheesecake", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:schnitzel", {
-	-- item_eat(550)
+	-- item_eat(6)
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -250,7 +255,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:schnitzel", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:schnitzel_sandwich", {
-	-- item_eat(3888.88888888889, 'sandwiches:bread_crumbs')
+	-- item_eat(10, 'sandwiches:bread_crumbs')
+	replace_with = "sandwiches:bread_crumbs",
 	saturation = 9,
 	duration = 2000,
 	nutrients = {
@@ -262,7 +268,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:schnitzel_sandwich", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:shortbread", {
-	-- item_eat(1000)
+	-- item_eat(4)
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -274,7 +280,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:shortbread", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:spring_bowl", {
-	-- item_eat(177.083333333333, 'farming:bowl')
+	-- item_eat(7, 'farming:bowl')
+	replace_with = "farming:bowl",
 	saturation = 6,
 	duration = 500,
 	nutrients = {
@@ -286,7 +293,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:spring_bowl", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:stollen", {
-	-- item_eat(650)
+	-- item_eat(10)
 	saturation = 8,
 	duration = 1600,
 	nutrients = {
@@ -297,7 +304,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:stollen", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:stollen_raw", {
-	-- item_eat(160.714285714286)
+	-- item_eat(1)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -308,7 +315,7 @@ balanced_nutrient_overrides.register_food("yl_seasons:stollen_raw", {
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:yl_cake", {
-	-- item_eat(914.285714285714)
+	-- item_eat(10)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {

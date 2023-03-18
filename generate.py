@@ -11,31 +11,32 @@ our_path = pathlib.Path(os.path.realpath(__file__)).parent
 
 def build_food_definition(row):
     lines = [
-        f'balanced_nutrient_overrides.register_food({row[1]!r}, {{',
+        f'balanced_nutrient_overrides.register_food({row["food"]!r}, {{',
     ]
-    if len(row) < 20 or row[19] == '':
-        lines.append(f'\t-- item_eat({row[12]})')
+    if row.get('replace_with', '') == '':
+        lines.append(f'\t-- item_eat({row["item_eat"]})')
     else:
-        lines.append(f'\t-- item_eat({row[12]}, {row[19]!r})')
+        lines.append(f'\t-- item_eat({row["item_eat"]}, {row["replace_with"]!r})')
+        lines.append(f'\treplace_with = {row["replace_with"]!r},')
 
-    lines.append(f'\tsaturation = {row[2]},')
-    lines.append(f'\tduration = {row[3]},')
+    lines.append(f'\tsaturation = {row["s"]},')
+    lines.append(f'\tduration = {row["d"]},')
     lines.append(f'\tnutrients = {{')
 
-    if int(row[4]) > 0:
-        lines.append(f'\t\tcarbohydrate = {row[4]},')
-    if int(row[5]) > 0:
-        lines.append(f'\t\tfat = {row[5]},')
-    if int(row[6]) > 0:
-        lines.append(f'\t\tprotein = {row[6]},')
-    if int(row[7]) > 0:
-        lines.append(f'\t\tvitamin = {row[7]},')
-    if int(row[8]) > 0:
-        lines.append(f'\t\traw_meat = {row[8]},')
+    if int(row['c']) > 0:
+        lines.append(f'\t\tcarbohydrate = {row["c"]},')
+    if int(row['f']) > 0:
+        lines.append(f'\t\tfat = {row["f"]},')
+    if int(row['p']) > 0:
+        lines.append(f'\t\tprotein = {row["p"]},')
+    if int(row['v']) > 0:
+        lines.append(f'\t\tvitamin = {row["v"]},')
+    if int(row['r']) > 0:
+        lines.append(f'\t\traw_meat = {row["r"]},')
     lines.append(f'\t}},')
 
-    if len(row) >= 21 and row[20] != '':
-        lines.append(f'\tafter_eat = balanced_nutrient_overrides.{row[20]},')
+    if row.get('other', '') != '':
+        lines.append(f'\tafter_eat = balanced_nutrient_overrides.{row["other"]},')
 
     lines.append(f'}})')
 
@@ -47,14 +48,23 @@ def main(args):
     all_sheets = pyexcel_ods.get_data(str(args.data))
     data = all_sheets['data']
 
+    keys = data[0]
+
     for row in data[1:]:
         if len(row) > 0:
-            food_definitions_by_mod[row[0]].append(build_food_definition(row))
+            row = dict(zip(keys, row))
+            food_definitions_by_mod[row['mod']].append(build_food_definition(row))
 
+    mods = 0
+    total = 0
     for mod, entries in food_definitions_by_mod.items():
+        mods = mods + 1
+        total = total + len(entries)
         entries.sort()
         with open(our_path / f'{mod}.lua', 'w') as fh:
             fh.write('\n\n'.join(entries))
+
+    print(f'{total} foods in {mods} mods')
 
 
 def parse_args(argv=None, namespace=None):
