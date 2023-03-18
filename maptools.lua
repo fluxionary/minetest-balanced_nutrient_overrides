@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("maptools:superapple", {
-	-- item_eat(20)
+	-- item_eat(1200)
 	saturation = 1,
 	duration = 300,
 	nutrients = {

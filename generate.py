@@ -13,10 +13,10 @@ def build_food_definition(row):
     lines = [
         f'balanced_nutrient_overrides.register_food({row[1]!r}, {{',
     ]
-    if len(row) < 18 or row[17] == '':
+    if len(row) < 20 or row[19] == '':
         lines.append(f'\t-- item_eat({row[12]})')
     else:
-        lines.append(f'\t-- item_eat({row[12]}, {row[17]!r})')
+        lines.append(f'\t-- item_eat({row[12]}, {row[19]!r})')
 
     lines.append(f'\tsaturation = {row[2]},')
     lines.append(f'\tduration = {row[3]},')
@@ -34,8 +34,8 @@ def build_food_definition(row):
         lines.append(f'\t\traw_meat = {row[8]},')
     lines.append(f'\t}},')
 
-    if len(row) >= 19 and row[18] != '':
-        lines.append(f'\tafter_eat = balanced_nutrient_overrides.{row[18]},')
+    if len(row) >= 21 and row[20] != '':
+        lines.append(f'\tafter_eat = balanced_nutrient_overrides.{row[20]},')
 
     lines.append(f'}})')
 
@@ -52,6 +52,7 @@ def main(args):
             food_definitions_by_mod[row[0]].append(build_food_definition(row))
 
     for mod, entries in food_definitions_by_mod.items():
+        entries.sort()
         with open(our_path / f'{mod}.lua', 'w') as fh:
             fh.write('\n\n'.join(entries))
 

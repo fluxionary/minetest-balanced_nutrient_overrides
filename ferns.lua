@@ -1,15 +1,5 @@
-balanced_nutrient_overrides.register_food("ferns:fiddlehead", {
-	-- item_eat(0)
-	saturation = 1,
-	duration = 300,
-	nutrients = {
-		carbohydrate = 1,
-	},
-	after_eat = balanced_nutrient_overrides.effects({ poison = 1 }),
-})
-
 balanced_nutrient_overrides.register_food("ferns:ferntuber_roasted", {
-	-- item_eat(3)
+	-- item_eat(600)
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -19,21 +9,31 @@ balanced_nutrient_overrides.register_food("ferns:ferntuber_roasted", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("ferns:horsetail_01", {
-	-- item_eat(1)
+balanced_nutrient_overrides.register_food("ferns:fiddlehead", {
+	-- item_eat(300)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
-		vitamin = 2,
+		carbohydrate = 1,
 	},
+	after_eat = balanced_nutrient_overrides.effects({ poison = 1 }),
 })
 
 balanced_nutrient_overrides.register_food("ferns:fiddlehead_roasted", {
-	-- item_eat(1)
+	-- item_eat(600)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 1,
 		vitamin = 3,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ferns:horsetail_01", {
+	-- item_eat(600)
+	saturation = 1,
+	duration = 300,
+	nutrients = {
+		vitamin = 2,
 	},
 })

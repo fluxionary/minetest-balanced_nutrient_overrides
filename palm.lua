@@ -1,5 +1,5 @@
 balanced_nutrient_overrides.register_food("palm:coconut_slice", {
-	-- item_eat(1)
+	-- item_eat(300)
 	saturation = 2,
 	duration = 300,
 	nutrients = {

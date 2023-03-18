@@ -1,27 +1,30 @@
-balanced_nutrient_overrides.register_food("yl_seasons:spring_bowl", {
-	-- item_eat(7, 'farming:bowl')
+balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie", {
+	-- item_eat(960)
 	saturation = 6,
-	duration = 500,
+	duration = 1200,
 	nutrients = {
-		carbohydrate = 3,
-		fat = 3,
-		protein = 4,
-		vitamin = 7,
+		carbohydrate = 8,
+		fat = 2,
+		protein = 6,
+		vitamin = 8,
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:raisins", {
-	-- item_eat(5)
-	saturation = 2,
-	duration = 600,
+balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie_raw", {
+	-- item_eat(375)
+	saturation = 4,
+	duration = 500,
 	nutrients = {
-		carbohydrate = 3,
-		vitamin = 1,
+		carbohydrate = 4,
+		fat = 1,
+		protein = 3,
+		vitamin = 4,
+		raw_meat = 4,
 	},
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:artichoke_roasted", {
-	-- item_eat(5)
+	-- item_eat(600)
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -30,32 +33,18 @@ balanced_nutrient_overrides.register_food("yl_seasons:artichoke_roasted", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:praline", {
-	-- item_eat(6)
-	saturation = 7,
-	duration = 700,
+balanced_nutrient_overrides.register_food("yl_seasons:baked_apple", {
+	-- item_eat(800)
+	saturation = 3,
+	duration = 600,
 	nutrients = {
 		carbohydrate = 6,
-		fat = 4,
-		protein = 4,
-		vitamin = 4,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:gingerbread", {
-	-- item_eat(8)
-	saturation = 6,
-	duration = 1000,
-	nutrients = {
-		carbohydrate = 8,
-		fat = 2,
-		protein = 2,
 		vitamin = 6,
 	},
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:borscht", {
-	-- item_eat(9, 'farming:bowl')
+	-- item_eat(840, 'farming:bowl')
 	saturation = 8,
 	duration = 1400,
 	nutrients = {
@@ -66,18 +55,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:borscht", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:baked_apple", {
-	-- item_eat(5)
-	saturation = 3,
-	duration = 600,
-	nutrients = {
-		carbohydrate = 6,
-		vitamin = 6,
-	},
-})
-
 balanced_nutrient_overrides.register_food("yl_seasons:chicken_artichoke", {
-	-- item_eat(10)
+	-- item_eat(829.62962962963)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -88,31 +67,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:chicken_artichoke", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:oliebol", {
-	-- item_eat(6, 'cucina_vegana:plate')
-	saturation = 8,
-	duration = 1000,
-	nutrients = {
-		carbohydrate = 12,
-		fat = 5,
-		protein = 4,
-		vitamin = 3,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:stollen", {
-	-- item_eat(10)
-	saturation = 8,
-	duration = 1600,
-	nutrients = {
-		carbohydrate = 16,
-		fat = 6,
-		vitamin = 4,
-	},
-})
-
 balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white", {
-	-- item_eat(4)
+	-- item_eat(711.111111111111)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -123,32 +79,52 @@ balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:schnitzel", {
-	-- item_eat(6)
-	saturation = 4,
-	duration = 1200,
+balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_cookie", {
+	-- item_eat(666.666666666667)
+	saturation = 2,
+	duration = 800,
 	nutrients = {
-		carbohydrate = 2,
-		fat = 2,
-		protein = 6,
+		carbohydrate = 3,
+		fat = 1,
 		vitamin = 1,
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:mashed_potatoes", {
-	-- item_eat(6, 'farming:bowl')
-	saturation = 8,
-	duration = 1200,
+balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_strawberry", {
+	-- item_eat(750)
+	saturation = 4,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 6,
+		fat = 3,
+		protein = 2,
+		vitamin = 1,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:cocoa_butter", {
+	-- item_eat(1600)
+	saturation = 2,
+	duration = 800,
+	nutrients = {
+		fat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:gingerbread", {
+	-- item_eat(428.571428571429)
+	saturation = 6,
+	duration = 1000,
 	nutrients = {
 		carbohydrate = 8,
-		fat = 6,
+		fat = 2,
 		protein = 2,
 		vitamin = 6,
 	},
 })
 
 balanced_nutrient_overrides.register_food("yl_seasons:gulab_jamun", {
-	-- item_eat(6, 'farming:bowl')
+	-- item_eat(666.666666666667, 'farming:bowl')
 	saturation = 6,
 	duration = 1000,
 	nutrients = {
@@ -159,89 +135,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:gulab_jamun", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_strawberry", {
-	-- item_eat(5)
-	saturation = 4,
-	duration = 1000,
-	nutrients = {
-		carbohydrate = 6,
-		fat = 3,
-		protein = 2,
-		vitamin = 1,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:yl_cake", {
-	-- item_eat(10)
-	saturation = 9,
-	duration = 1600,
-	nutrients = {
-		carbohydrate = 14,
-		fat = 2,
-		protein = 6,
-		vitamin = 14,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:chocolate_white_cookie", {
-	-- item_eat(3)
-	saturation = 2,
-	duration = 800,
-	nutrients = {
-		carbohydrate = 3,
-		fat = 1,
-		vitamin = 1,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:pretzel", {
-	-- item_eat(5)
-	saturation = 3,
-	duration = 1000,
-	nutrients = {
-		carbohydrate = 8,
-		vitamin = 2,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie", {
-	-- item_eat(7)
-	saturation = 6,
-	duration = 1200,
-	nutrients = {
-		carbohydrate = 8,
-		fat = 2,
-		protein = 6,
-		vitamin = 8,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:shortbread", {
-	-- item_eat(4)
-	saturation = 6,
-	duration = 1000,
-	nutrients = {
-		carbohydrate = 6,
-		fat = 2,
-		protein = 8,
-		vitamin = 2,
-	},
-})
-
-balanced_nutrient_overrides.register_food("yl_seasons:schnitzel_sandwich", {
-	-- item_eat(10, 'sandwiches:bread_crumbs')
-	saturation = 9,
-	duration = 2000,
-	nutrients = {
-		carbohydrate = 8,
-		fat = 6,
-		protein = 18,
-		vitamin = 3,
-	},
-})
-
 balanced_nutrient_overrides.register_food("yl_seasons:hot_chocolate", {
-	-- item_eat(4, 'vessels:drinking_glass')
+	-- item_eat(1600, 'vessels:drinking_glass')
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -252,17 +147,8 @@ balanced_nutrient_overrides.register_food("yl_seasons:hot_chocolate", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:cocoa_butter", {
-	-- item_eat(2)
-	saturation = 2,
-	duration = 800,
-	nutrients = {
-		fat = 4,
-	},
-})
-
 balanced_nutrient_overrides.register_food("yl_seasons:lamb_strawberry_mint", {
-	-- item_eat(7)
+	-- item_eat(1137.77777777778)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -273,8 +159,74 @@ balanced_nutrient_overrides.register_food("yl_seasons:lamb_strawberry_mint", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("yl_seasons:mashed_potatoes", {
+	-- item_eat(660, 'farming:bowl')
+	saturation = 8,
+	duration = 1200,
+	nutrients = {
+		carbohydrate = 8,
+		fat = 6,
+		protein = 2,
+		vitamin = 6,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:oliebol", {
+	-- item_eat(600, 'cucina_vegana:plate')
+	saturation = 8,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 12,
+		fat = 5,
+		protein = 4,
+		vitamin = 3,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:praline", {
+	-- item_eat(450)
+	saturation = 7,
+	duration = 700,
+	nutrients = {
+		carbohydrate = 6,
+		fat = 4,
+		protein = 4,
+		vitamin = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:pretzel", {
+	-- item_eat(1111.11111111111)
+	saturation = 3,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 8,
+		vitamin = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:pretzel_raw", {
+	-- item_eat(450)
+	saturation = 1,
+	duration = 300,
+	nutrients = {
+		carbohydrate = 2,
+		vitamin = 1,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:raisins", {
+	-- item_eat(600)
+	saturation = 2,
+	duration = 600,
+	nutrients = {
+		carbohydrate = 3,
+		vitamin = 1,
+	},
+})
+
 balanced_nutrient_overrides.register_food("yl_seasons:rhubarb_cheesecake", {
-	-- item_eat(7)
+	-- item_eat(948.148148148148)
 	saturation = 9,
 	duration = 1600,
 	nutrients = {
@@ -285,18 +237,67 @@ balanced_nutrient_overrides.register_food("yl_seasons:rhubarb_cheesecake", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:pretzel_raw", {
-	-- item_eat(1)
-	saturation = 1,
-	duration = 300,
+balanced_nutrient_overrides.register_food("yl_seasons:schnitzel", {
+	-- item_eat(550)
+	saturation = 4,
+	duration = 1200,
 	nutrients = {
 		carbohydrate = 2,
+		fat = 2,
+		protein = 6,
 		vitamin = 1,
 	},
 })
 
+balanced_nutrient_overrides.register_food("yl_seasons:schnitzel_sandwich", {
+	-- item_eat(3888.88888888889, 'sandwiches:bread_crumbs')
+	saturation = 9,
+	duration = 2000,
+	nutrients = {
+		carbohydrate = 8,
+		fat = 6,
+		protein = 18,
+		vitamin = 3,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:shortbread", {
+	-- item_eat(1000)
+	saturation = 6,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 6,
+		fat = 2,
+		protein = 8,
+		vitamin = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:spring_bowl", {
+	-- item_eat(177.083333333333, 'farming:bowl')
+	saturation = 6,
+	duration = 500,
+	nutrients = {
+		carbohydrate = 3,
+		fat = 3,
+		protein = 4,
+		vitamin = 7,
+	},
+})
+
+balanced_nutrient_overrides.register_food("yl_seasons:stollen", {
+	-- item_eat(650)
+	saturation = 8,
+	duration = 1600,
+	nutrients = {
+		carbohydrate = 16,
+		fat = 6,
+		vitamin = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("yl_seasons:stollen_raw", {
-	-- item_eat(1)
+	-- item_eat(160.714285714286)
 	saturation = 4,
 	duration = 500,
 	nutrients = {
@@ -306,15 +307,14 @@ balanced_nutrient_overrides.register_food("yl_seasons:stollen_raw", {
 	},
 })
 
-balanced_nutrient_overrides.register_food("yl_seasons:artichoke_pie_raw", {
-	-- item_eat(1)
-	saturation = 4,
-	duration = 500,
+balanced_nutrient_overrides.register_food("yl_seasons:yl_cake", {
+	-- item_eat(914.285714285714)
+	saturation = 9,
+	duration = 1600,
 	nutrients = {
-		carbohydrate = 4,
-		fat = 1,
-		protein = 3,
-		vitamin = 4,
-		raw_meat = 4,
+		carbohydrate = 14,
+		fat = 2,
+		protein = 6,
+		vitamin = 14,
 	},
 })
