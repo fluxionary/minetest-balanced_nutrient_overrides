@@ -29,7 +29,10 @@ balanced_nutrient_overrides.register_food("cheese:blazing_exquisitess", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ haste = 20, impetus = 20, mana = 10 }),
+	after_eat = function()
+		balanced_nutrient_overrides.attributes({ mana = 10 })
+		balanced_nutrient_overrides.effects({ speed = { 1.5, 20 }, jump = { 1.2, 20 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:brie", {
@@ -71,7 +74,9 @@ balanced_nutrient_overrides.register_food("cheese:desert_delicacy", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ regen = 20, snailing = 20 }),
+	after_eat = function()
+		balanced_nutrient_overrides.effects({ regen = { 1, 20 }, slow = { 1, 20 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:emmental", {
@@ -114,7 +119,10 @@ balanced_nutrient_overrides.register_food("cheese:frosted_tomme", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ breeze = 20, mana = 20 }),
+	after_eat = function()
+		balanced_nutrient_overrides.attributes({ mana = 20 })
+		balanced_nutrient_overrides.effects({ speed = { 1.1, 20 }, gravity = { 0.7, 20 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:fruit_tonic", {
@@ -211,7 +219,9 @@ balanced_nutrient_overrides.register_food("cheese:noxious_cheddar", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ snailing = 15, burden = 15, miasma = 15 }),
+	after_eat = function()
+		balanced_nutrient_overrides.effects({ tired = { 1, 15 }, miasma = { 1, 15 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:parmesan", {
@@ -243,7 +253,10 @@ balanced_nutrient_overrides.register_food("cheese:rose_ambrosia", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ regen = 10 }, { "snailing", "burden", "miasma" }),
+	after_eat = function()
+		balanced_nutrient_overrides.effects({ regen = { 1, 10 } })
+		balanced_nutrient_overrides.clear_effects("tired", "miasma")
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:scamorza", {
@@ -265,7 +278,10 @@ balanced_nutrient_overrides.register_food("cheese:shining_formage", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ heal = 8, regen = 10, mana = 10 }),
+	after_eat = function()
+		balanced_nutrient_overrides.attributes({ hp = 8, mana = 10 })
+		balanced_nutrient_overrides.effects({ regen = { 1, 10 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:smoked_scamorza", {
@@ -287,7 +303,10 @@ balanced_nutrient_overrides.register_food("cheese:sparkling_cheese", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ mana = 10, manaregen = 20 }),
+	after_eat = function()
+		balanced_nutrient_overrides.attributes({ mana = 10 })
+		balanced_nutrient_overrides.effects({ manaregen = { 1, 20 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cheese:stilton", {

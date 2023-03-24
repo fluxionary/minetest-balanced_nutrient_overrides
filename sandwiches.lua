@@ -609,7 +609,9 @@ balanced_nutrient_overrides.register_food("sandwiches:sand_sandwich", {
 		carbohydrate = 3,
 		vitamin = 3,
 	},
-	after_eat = balanced_nutrient_overrides.damage(2),
+	after_eat = function()
+		balanced_nutrient_overrides.attributes({ hp = -2 })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("sandwiches:sprinkles", {

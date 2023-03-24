@@ -16,7 +16,9 @@ balanced_nutrient_overrides.register_food("ferns:fiddlehead", {
 	nutrients = {
 		carbohydrate = 1,
 	},
-	after_eat = balanced_nutrient_overrides.effects({ poison = 1 }),
+	after_eat = function()
+		balanced_nutrient_overrides.effects({ poison = { 1, 1 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("ferns:fiddlehead_roasted", {
