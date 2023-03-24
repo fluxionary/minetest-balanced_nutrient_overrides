@@ -609,8 +609,8 @@ balanced_nutrient_overrides.register_food("sandwiches:sand_sandwich", {
 		carbohydrate = 3,
 		vitamin = 3,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ hp = -2 })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { hp = -2 })
 	end,
 })
 

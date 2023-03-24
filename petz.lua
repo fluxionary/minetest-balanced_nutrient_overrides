@@ -165,8 +165,8 @@ balanced_nutrient_overrides.register_food("petz:lycanthropy_remedy", {
 	saturation = 0,
 	duration = 0,
 	nutrients = {},
-	after_eat = function()
-		balanced_nutrient_overrides.clear_effects("lycanthropy", "werewolf")
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.clear_effects(eater, "lycanthropy", "werewolf")
 	end,
 })
 

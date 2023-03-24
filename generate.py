@@ -35,14 +35,14 @@ def build_food_definition(row):
         lines.append(f'\t\traw_meat = {row["r"]},')
     lines.append(f'\t}},')
 
-    if row.get('attributes', '') != '' or row.get('effects', '') != '' or row.get('-effects', '') != '':
-        lines.append(f'\tafter_eat = function()')
+    if row.get('attributes', '') != '' or row.get('+effects', '') != '' or row.get('-effects', '') != '':
+        lines.append(f'\tafter_eat = function(itemstack, eater, pointed_thing)')
         if row.get('attributes', '') != '':
-            lines.append(f'\t\tbalanced_nutrient_overrides.attributes({row["attributes"]})')
-        if row.get('effects', '') != '':
-            lines.append(f'\t\tbalanced_nutrient_overrides.effects({row["effects"]})')
+            lines.append(f'\t\tbalanced_nutrient_overrides.attributes(eater, {row["attributes"]})')
+        if row.get('+effects', '') != '':
+            lines.append(f'\t\tbalanced_nutrient_overrides.add_effects(eater, {row["+effects"]})')
         if row.get('-effects', '') != '':
-            lines.append(f'\t\tbalanced_nutrient_overrides.clear_effects({row["-effects"]})')
+            lines.append(f'\t\tbalanced_nutrient_overrides.clear_effects(eater, {row["-effects"]})')
         lines.append(f'\tend,')
 
     lines.append(f'}})')

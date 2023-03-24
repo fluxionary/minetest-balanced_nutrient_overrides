@@ -29,9 +29,9 @@ balanced_nutrient_overrides.register_food("cheese:blazing_exquisitess", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ mana = 10 })
-		balanced_nutrient_overrides.effects({ speed = { 1.5, 20 }, jump = { 1.2, 20 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { mana = 10 })
+		balanced_nutrient_overrides.add_effects(eater, { speed = { 1.5, 20 }, jump = { 1.2, 20 } })
 	end,
 })
 
@@ -74,8 +74,8 @@ balanced_nutrient_overrides.register_food("cheese:desert_delicacy", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ regen = { 1, 20 }, slow = { 1, 20 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { regen = { 1, 20 }, slow = { 1, 20 } })
 	end,
 })
 
@@ -119,9 +119,9 @@ balanced_nutrient_overrides.register_food("cheese:frosted_tomme", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ mana = 20 })
-		balanced_nutrient_overrides.effects({ speed = { 1.1, 20 }, gravity = { 0.7, 20 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { mana = 20 })
+		balanced_nutrient_overrides.add_effects(eater, { speed = { 1.1, 20 }, gravity = { 0.7, 20 } })
 	end,
 })
 
@@ -219,8 +219,8 @@ balanced_nutrient_overrides.register_food("cheese:noxious_cheddar", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tired = { 1, 15 }, miasma = { 1, 15 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tired = { 1, 15 }, miasma = { 1, 15 } })
 	end,
 })
 
@@ -253,9 +253,9 @@ balanced_nutrient_overrides.register_food("cheese:rose_ambrosia", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ regen = { 1, 10 } })
-		balanced_nutrient_overrides.clear_effects("tired", "miasma")
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { regen = { 1, 10 } })
+		balanced_nutrient_overrides.clear_effects(eater, "tired", "miasma")
 	end,
 })
 
@@ -278,9 +278,9 @@ balanced_nutrient_overrides.register_food("cheese:shining_formage", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ hp = 8, mana = 10 })
-		balanced_nutrient_overrides.effects({ regen = { 1, 10 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { hp = 8, mana = 10 })
+		balanced_nutrient_overrides.add_effects(eater, { regen = { 1, 10 } })
 	end,
 })
 
@@ -303,9 +303,9 @@ balanced_nutrient_overrides.register_food("cheese:sparkling_cheese", {
 		protein = 2,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ mana = 10 })
-		balanced_nutrient_overrides.effects({ manaregen = { 1, 20 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { mana = 10 })
+		balanced_nutrient_overrides.add_effects(eater, { manaregen = { 1, 20 } })
 	end,
 })
 

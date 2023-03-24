@@ -15,8 +15,8 @@ balanced_nutrient_overrides.register_food("wine:glass_beer", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -28,8 +28,8 @@ balanced_nutrient_overrides.register_food("wine:glass_bourbon", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -42,8 +42,8 @@ balanced_nutrient_overrides.register_food("wine:glass_brandy", {
 		carbohydrate = 4,
 		vitamin = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -56,8 +56,8 @@ balanced_nutrient_overrides.register_food("wine:glass_champagne", {
 		carbohydrate = 5,
 		vitamin = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -70,8 +70,8 @@ balanced_nutrient_overrides.register_food("wine:glass_cider", {
 		carbohydrate = 3,
 		vitamin = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -84,8 +84,8 @@ balanced_nutrient_overrides.register_food("wine:glass_coffee_liquor", {
 		carbohydrate = 4,
 		vitamin = 2,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -98,8 +98,8 @@ balanced_nutrient_overrides.register_food("wine:glass_cointreau", {
 		carbohydrate = 3,
 		vitamin = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -113,8 +113,8 @@ balanced_nutrient_overrides.register_food("wine:glass_eggnogg", {
 		fat = 2,
 		protein = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -128,8 +128,8 @@ balanced_nutrient_overrides.register_food("wine:glass_kefir", {
 		fat = 4,
 		protein = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -142,8 +142,8 @@ balanced_nutrient_overrides.register_food("wine:glass_margarita", {
 		carbohydrate = 7,
 		vitamin = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -155,8 +155,8 @@ balanced_nutrient_overrides.register_food("wine:glass_mead", {
 	nutrients = {
 		carbohydrate = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -169,8 +169,8 @@ balanced_nutrient_overrides.register_food("wine:glass_mint", {
 		carbohydrate = 6,
 		vitamin = 6,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -182,8 +182,8 @@ balanced_nutrient_overrides.register_food("wine:glass_rum", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -195,8 +195,8 @@ balanced_nutrient_overrides.register_food("wine:glass_sake", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -252,8 +252,8 @@ balanced_nutrient_overrides.register_food("wine:glass_tequila", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -265,8 +265,8 @@ balanced_nutrient_overrides.register_food("wine:glass_vodka", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -278,8 +278,8 @@ balanced_nutrient_overrides.register_food("wine:glass_wheat_beer", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })
 
@@ -291,7 +291,7 @@ balanced_nutrient_overrides.register_food("wine:glass_wine", {
 	nutrients = {
 		carbohydrate = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ tipsy = { 1, 60 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { tipsy = { 1, 60 } })
 	end,
 })

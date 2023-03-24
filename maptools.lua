@@ -6,7 +6,7 @@ balanced_nutrient_overrides.register_food("maptools:superapple", {
 		carbohydrate = 2,
 		vitamin = 2,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ hp = 100 })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { hp = 100 })
 	end,
 })

@@ -653,5 +653,7 @@ stds.balanced_nutrient_overrides = {
 		"balanced_diet",
 		"fmod",
 		"futil",
+		"player_attributes",
+		"status_effects",
 	},
 }

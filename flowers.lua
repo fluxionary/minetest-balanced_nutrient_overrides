@@ -16,7 +16,7 @@ balanced_nutrient_overrides.register_food("flowers:mushroom_red", {
 		carbohydrate = 1,
 		protein = 1,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.effects({ poison = { 1, 5 } })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { poison = { 1, 5 } })
 	end,
 })

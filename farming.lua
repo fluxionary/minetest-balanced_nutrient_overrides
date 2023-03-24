@@ -245,8 +245,8 @@ balanced_nutrient_overrides.register_food("farming:chili_powder", {
 	nutrients = {
 		vitamin = 4,
 	},
-	after_eat = function()
-		balanced_nutrient_overrides.attributes({ hp = -1 })
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.attributes(eater, { hp = -1 })
 	end,
 })
 
