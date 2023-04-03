@@ -14,7 +14,7 @@ def build_food_definition(row):
         f'balanced_nutrient_overrides.register_food({row["food"]!r}, {{',
     ]
     if row.get('replace_with', '') == '':
-        lines.append(f'\t-- item_eat({row["item_eat"]})')
+        lines.append(f'\t-- item_eat({row.get("item_eat", "unknown")})')
     else:
         lines.append(f'\t-- item_eat({row["item_eat"]}, {row["replace_with"]!r})')
         lines.append(f'\treplace_with = {row["replace_with"]!r},')
