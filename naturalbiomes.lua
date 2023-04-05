@@ -37,7 +37,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:blackberry", {
 })
 
 balanced_nutrient_overrides.register_food("naturalbiomes:coconut", {
-	-- item_eat(unknown)
+	-- item_eat(1)
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -103,7 +103,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:olives", {
 })
 
 balanced_nutrient_overrides.register_food("naturalbiomes:wildrose", {
-	-- item_eat(unknown)
+	-- item_eat(1)
 	saturation = 1,
 	duration = 300,
 	nutrients = {
