@@ -55,7 +55,7 @@ balanced_nutrient_overrides.register_food("water_life:riverfish", {
 balanced_nutrient_overrides.register_food("water_life:seasaladmix", {
 	-- item_eat(6)
 	saturation = 4,
-	duration = 600,
+	duration = 1000,
 	nutrients = {
 		vitamin = 16,
 	},

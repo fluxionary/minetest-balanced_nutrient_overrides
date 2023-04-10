@@ -372,7 +372,7 @@ balanced_nutrient_overrides.register_food("cucina_vegana:salad_bowl", {
 	-- item_eat(4, 'cucina_vegana:bowl')
 	replace_with = "cucina_vegana:bowl",
 	saturation = 2,
-	duration = 300,
+	duration = 600,
 	nutrients = {
 		fat = 2,
 		vitamin = 6,
@@ -383,7 +383,7 @@ balanced_nutrient_overrides.register_food("cucina_vegana:salad_hollandaise", {
 	-- item_eat(5, 'cucina_vegana:bowl')
 	replace_with = "cucina_vegana:bowl",
 	saturation = 6,
-	duration = 600,
+	duration = 800,
 	nutrients = {
 		carbohydrate = 2,
 		fat = 6,
@@ -409,7 +409,7 @@ balanced_nutrient_overrides.register_food("cucina_vegana:sea_salad", {
 	-- item_eat(5, 'cucina_vegana:bowl')
 	replace_with = "cucina_vegana:bowl",
 	saturation = 2,
-	duration = 300,
+	duration = 1000,
 	nutrients = {
 		carbohydrate = 2,
 		vitamin = 8,

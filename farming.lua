@@ -727,7 +727,7 @@ balanced_nutrient_overrides.register_food("farming:salad", {
 	-- item_eat(8, 'farming:bowl')
 	replace_with = "farming:bowl",
 	saturation = 4,
-	duration = 500,
+	duration = 600,
 	nutrients = {
 		carbohydrate = 1,
 		fat = 2,
