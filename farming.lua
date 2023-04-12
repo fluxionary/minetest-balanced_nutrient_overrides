@@ -669,7 +669,7 @@ balanced_nutrient_overrides.register_food("farming:pumpkin_bread", {
 	nutrients = {
 		carbohydrate = 6,
 		fat = 1,
-		vitamin = 1,
+		vitamin = 4,
 	},
 })
 
@@ -679,7 +679,7 @@ balanced_nutrient_overrides.register_food("farming:pumpkin_slice", {
 	duration = 300,
 	nutrients = {
 		carbohydrate = 1,
-		fat = 1,
+		vitamin = 1,
 	},
 })
 
