@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("aotearoa:cockle", {
 	-- item_eat(2)
+	category = "shellfish",
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -10,6 +11,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cockle", {
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_bracken_root", {
 	-- item_eat(1)
+	category = "root",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -20,6 +22,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_bracken_root", {
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_cabbage_tree_root", {
 	-- item_eat(1)
+	category = "root",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -30,6 +33,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_cabbage_tree_root", {
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_cabbage_tree_shoots", {
 	-- item_eat(1)
+	category = "sprout",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -40,6 +44,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_cabbage_tree_shoots",
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_fiddlehead", {
 	-- item_eat(1)
+	category = "fern",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -60,6 +65,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_mamaku_pith", {
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_nikau_shoots", {
 	-- item_eat(1)
+	category = "sprout",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -70,6 +76,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_nikau_shoots", {
 
 balanced_nutrient_overrides.register_food("aotearoa:cooked_raupo_root", {
 	-- item_eat(1)
+	category = "root",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -80,6 +87,7 @@ balanced_nutrient_overrides.register_food("aotearoa:cooked_raupo_root", {
 
 balanced_nutrient_overrides.register_food("aotearoa:hinau_fruit", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -90,6 +98,7 @@ balanced_nutrient_overrides.register_food("aotearoa:hinau_fruit", {
 
 balanced_nutrient_overrides.register_food("aotearoa:karaka_fruit", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -100,6 +109,7 @@ balanced_nutrient_overrides.register_food("aotearoa:karaka_fruit", {
 
 balanced_nutrient_overrides.register_food("aotearoa:kawakawa_fruit", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -110,6 +120,7 @@ balanced_nutrient_overrides.register_food("aotearoa:kawakawa_fruit", {
 
 balanced_nutrient_overrides.register_food("aotearoa:miro_fruit", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -120,6 +131,7 @@ balanced_nutrient_overrides.register_food("aotearoa:miro_fruit", {
 
 balanced_nutrient_overrides.register_food("aotearoa:pipi", {
 	-- item_eat(2)
+	category = "shellfish",
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -130,6 +142,7 @@ balanced_nutrient_overrides.register_food("aotearoa:pipi", {
 
 balanced_nutrient_overrides.register_food("aotearoa:pungapunga", {
 	-- item_eat(8)
+	category = "bread",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -141,6 +154,7 @@ balanced_nutrient_overrides.register_food("aotearoa:pungapunga", {
 
 balanced_nutrient_overrides.register_food("aotearoa:seed_cake", {
 	-- item_eat(8)
+	category = "bread",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -152,6 +166,7 @@ balanced_nutrient_overrides.register_food("aotearoa:seed_cake", {
 
 balanced_nutrient_overrides.register_food("aotearoa:tawa_fruit", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {

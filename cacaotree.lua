@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("cacaotree:choco_cake", {
 	-- item_eat(4)
+	category = "cake",
 	saturation = 6,
 	duration = 500,
 	nutrients = {
@@ -11,6 +12,7 @@ balanced_nutrient_overrides.register_food("cacaotree:choco_cake", {
 
 balanced_nutrient_overrides.register_food("cacaotree:milk_chocolate", {
 	-- item_eat(4)
+	category = "chocolate",
 	saturation = 4,
 	duration = 300,
 	nutrients = {

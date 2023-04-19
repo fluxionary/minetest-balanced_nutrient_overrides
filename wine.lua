@@ -203,8 +203,9 @@ balanced_nutrient_overrides.register_food("wine:glass_sake", {
 balanced_nutrient_overrides.register_food("wine:glass_sparkling_agave_juice", {
 	-- item_eat(4, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
-	saturation = 3,
-	duration = 600,
+	category = "juice",
+	saturation = 2,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 4,
 		vitamin = 2,
@@ -214,8 +215,9 @@ balanced_nutrient_overrides.register_food("wine:glass_sparkling_agave_juice", {
 balanced_nutrient_overrides.register_food("wine:glass_sparkling_apple_juice", {
 	-- item_eat(5, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
-	saturation = 3,
-	duration = 600,
+	category = "juice",
+	saturation = 2,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 4,
 		vitamin = 2,
@@ -225,8 +227,9 @@ balanced_nutrient_overrides.register_food("wine:glass_sparkling_apple_juice", {
 balanced_nutrient_overrides.register_food("wine:glass_sparkling_blackberry_juice", {
 	-- item_eat(4, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
-	saturation = 3,
-	duration = 600,
+	category = "juice",
+	saturation = 2,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 4,
 		vitamin = 2,
@@ -236,8 +239,9 @@ balanced_nutrient_overrides.register_food("wine:glass_sparkling_blackberry_juice
 balanced_nutrient_overrides.register_food("wine:glass_sparkling_carrot_juice", {
 	-- item_eat(4, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
-	saturation = 3,
-	duration = 600,
+	category = "juice",
+	saturation = 2,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 4,
 		vitamin = 2,

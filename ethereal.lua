@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("ethereal:bamboo_sprout", {
 	-- item_eat(2)
+	category = "sprout",
 	saturation = 2,
 	duration = 300,
 	nutrients = {
@@ -11,6 +12,7 @@ balanced_nutrient_overrides.register_food("ethereal:bamboo_sprout", {
 
 balanced_nutrient_overrides.register_food("ethereal:banana", {
 	-- item_eat(2)
+	category = "banana",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -20,6 +22,7 @@ balanced_nutrient_overrides.register_food("ethereal:banana", {
 
 balanced_nutrient_overrides.register_food("ethereal:banana_bread", {
 	-- item_eat(6)
+	category = "bread",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -29,6 +32,7 @@ balanced_nutrient_overrides.register_food("ethereal:banana_bread", {
 
 balanced_nutrient_overrides.register_food("ethereal:banana_bunch", {
 	-- item_eat(6)
+	category = "banana",
 	saturation = 3,
 	duration = 300,
 	nutrients = {
@@ -39,6 +43,7 @@ balanced_nutrient_overrides.register_food("ethereal:banana_bunch", {
 balanced_nutrient_overrides.register_food("ethereal:bucket_cactus", {
 	-- item_eat(2, 'bucket:bucket_empty')
 	replace_with = "bucket:bucket_empty",
+	category = "juice",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -48,6 +53,7 @@ balanced_nutrient_overrides.register_food("ethereal:bucket_cactus", {
 
 balanced_nutrient_overrides.register_food("ethereal:candied_lemon", {
 	-- item_eat(5)
+	category = "candy",
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -58,8 +64,9 @@ balanced_nutrient_overrides.register_food("ethereal:candied_lemon", {
 
 balanced_nutrient_overrides.register_food("ethereal:coconut_slice", {
 	-- item_eat(1)
+	category = "coconut",
 	saturation = 2,
-	duration = 300,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 1,
 		fat = 1,
@@ -70,6 +77,7 @@ balanced_nutrient_overrides.register_food("ethereal:coconut_slice", {
 
 balanced_nutrient_overrides.register_food("ethereal:fern_tubers", {
 	-- item_eat(1)
+	category = "root",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -81,8 +89,8 @@ balanced_nutrient_overrides.register_food("ethereal:fern_tubers", {
 balanced_nutrient_overrides.register_food("ethereal:firethorn_jelly", {
 	-- item_eat(2, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
-	saturation = 2,
-	duration = 300,
+	saturation = 1,
+	duration = 600,
 	nutrients = {
 		vitamin = 6,
 	},
@@ -90,7 +98,8 @@ balanced_nutrient_overrides.register_food("ethereal:firethorn_jelly", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_angler", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -101,7 +110,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_angler", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_bluefin", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -112,7 +122,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_bluefin", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_blueram", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -123,7 +134,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_blueram", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_catfish", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -134,7 +146,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_catfish", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_cichlid", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -145,7 +158,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_cichlid", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_clownfish", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -156,6 +170,7 @@ balanced_nutrient_overrides.register_food("ethereal:fish_clownfish", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_cooked", {
 	-- item_eat(5)
+	category = "fish",
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -166,7 +181,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_cooked", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_coy", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -177,7 +193,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_coy", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_flathead", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -188,7 +205,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_flathead", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_pike", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -199,7 +217,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_pike", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_piranha", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -210,7 +229,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_piranha", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_plaice", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -221,7 +241,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_plaice", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_salmon", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -232,7 +253,8 @@ balanced_nutrient_overrides.register_food("ethereal:fish_salmon", {
 
 balanced_nutrient_overrides.register_food("ethereal:fish_trout", {
 	-- item_eat(2)
-	saturation = 3,
+	category = "fish",
+	saturation = 2,
 	duration = 500,
 	nutrients = {
 		fat = 1,
@@ -243,6 +265,7 @@ balanced_nutrient_overrides.register_food("ethereal:fish_trout", {
 
 balanced_nutrient_overrides.register_food("ethereal:fugu", {
 	-- item_eat(4)
+	category = "fish",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -254,10 +277,11 @@ balanced_nutrient_overrides.register_food("ethereal:fugu", {
 
 balanced_nutrient_overrides.register_food("ethereal:golden_apple", {
 	-- item_eat(2)
-	saturation = 2,
-	duration = 300,
+	category = "apple",
+	saturation = 1,
+	duration = 150,
 	nutrients = {
-		vitamin = 4,
+		vitamin = 6,
 	},
 	after_eat = function(itemstack, eater, pointed_thing)
 		balanced_nutrient_overrides.attributes(eater, { hp = 20 })
@@ -279,6 +303,7 @@ balanced_nutrient_overrides.register_food("ethereal:hearty_stew", {
 
 balanced_nutrient_overrides.register_food("ethereal:lemon", {
 	-- item_eat(3)
+	category = "citrus",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -290,8 +315,9 @@ balanced_nutrient_overrides.register_food("ethereal:lemon", {
 balanced_nutrient_overrides.register_food("ethereal:lemonade", {
 	-- item_eat(5, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
-	saturation = 3,
-	duration = 300,
+	category = "juice",
+	saturation = 2,
+	duration = 500,
 	nutrients = {
 		carbohydrate = 5,
 		vitamin = 1,
@@ -301,7 +327,8 @@ balanced_nutrient_overrides.register_food("ethereal:lemonade", {
 balanced_nutrient_overrides.register_food("ethereal:mushroom_soup", {
 	-- item_eat(5, 'ethereal:bowl')
 	replace_with = "ethereal:bowl",
-	saturation = 6,
+	category = "mushroom",
+	saturation = 4,
 	duration = 1200,
 	nutrients = {
 		carbohydrate = 4,
@@ -313,6 +340,7 @@ balanced_nutrient_overrides.register_food("ethereal:mushroom_soup", {
 
 balanced_nutrient_overrides.register_food("ethereal:olive", {
 	-- item_eat(1)
+	category = "olive",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -323,6 +351,7 @@ balanced_nutrient_overrides.register_food("ethereal:olive", {
 
 balanced_nutrient_overrides.register_food("ethereal:orange", {
 	-- item_eat(4)
+	category = "citrus",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -333,6 +362,7 @@ balanced_nutrient_overrides.register_food("ethereal:orange", {
 
 balanced_nutrient_overrides.register_food("ethereal:pine_nuts", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -344,6 +374,7 @@ balanced_nutrient_overrides.register_food("ethereal:pine_nuts", {
 
 balanced_nutrient_overrides.register_food("ethereal:sashimi", {
 	-- item_eat(4)
+	category = "sushi",
 	saturation = 2,
 	duration = 500,
 	nutrients = {
@@ -355,6 +386,7 @@ balanced_nutrient_overrides.register_food("ethereal:sashimi", {
 
 balanced_nutrient_overrides.register_food("ethereal:seaweed", {
 	-- item_eat(1)
+	category = "seaweed",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -364,6 +396,7 @@ balanced_nutrient_overrides.register_food("ethereal:seaweed", {
 
 balanced_nutrient_overrides.register_food("ethereal:strawberry", {
 	-- item_eat(1)
+	category = "berry",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -374,6 +407,7 @@ balanced_nutrient_overrides.register_food("ethereal:strawberry", {
 
 balanced_nutrient_overrides.register_food("ethereal:sushi_kappamaki", {
 	-- item_eat(3)
+	category = "sushi",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -384,6 +418,7 @@ balanced_nutrient_overrides.register_food("ethereal:sushi_kappamaki", {
 
 balanced_nutrient_overrides.register_food("ethereal:sushi_nigiri", {
 	-- item_eat(2)
+	category = "sushi",
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -396,6 +431,7 @@ balanced_nutrient_overrides.register_food("ethereal:sushi_nigiri", {
 
 balanced_nutrient_overrides.register_food("ethereal:sushi_tamago", {
 	-- item_eat(2)
+	category = "egg",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -409,6 +445,7 @@ balanced_nutrient_overrides.register_food("ethereal:sushi_tamago", {
 balanced_nutrient_overrides.register_food("ethereal:teriyaki_beef", {
 	-- item_eat(12, 'ethereal:bowl')
 	replace_with = "ethereal:bowl",
+	category = "teriyaki",
 	saturation = 10,
 	duration = 2400,
 	nutrients = {
@@ -421,6 +458,7 @@ balanced_nutrient_overrides.register_food("ethereal:teriyaki_beef", {
 
 balanced_nutrient_overrides.register_food("ethereal:teriyaki_chicken", {
 	-- item_eat(4)
+	category = "teriyaki",
 	saturation = 7,
 	duration = 1600,
 	nutrients = {
@@ -433,6 +471,7 @@ balanced_nutrient_overrides.register_food("ethereal:teriyaki_chicken", {
 
 balanced_nutrient_overrides.register_food("ethereal:wild_onion_plant", {
 	-- item_eat(2)
+	category = "onion",
 	saturation = 1,
 	duration = 300,
 	nutrients = {

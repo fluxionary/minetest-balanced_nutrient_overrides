@@ -13,6 +13,7 @@ balanced_nutrient_overrides.register_food("herbs:mushroom_amanita_green", {
 
 balanced_nutrient_overrides.register_food("herbs:mushroom_boletus", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 400,
 	nutrients = {
@@ -24,6 +25,7 @@ balanced_nutrient_overrides.register_food("herbs:mushroom_boletus", {
 
 balanced_nutrient_overrides.register_food("herbs:mushroom_cantharellus", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 400,
 	nutrients = {
@@ -61,6 +63,7 @@ balanced_nutrient_overrides.register_food("herbs:mushroom_gyromitra", {
 
 balanced_nutrient_overrides.register_food("herbs:mushroom_macrolepiota", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 400,
 	nutrients = {

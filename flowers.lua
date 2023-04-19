@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("flowers:mushroom_brown", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 400,
 	nutrients = {

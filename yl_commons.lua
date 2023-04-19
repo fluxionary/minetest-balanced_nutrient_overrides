@@ -1,6 +1,7 @@
 balanced_nutrient_overrides.register_food("farming:apple_tea", {
 	-- item_eat(2, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
+	category = "tea",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -12,6 +13,7 @@ balanced_nutrient_overrides.register_food("farming:apple_tea", {
 balanced_nutrient_overrides.register_food("farming:dandelion_tea", {
 	-- item_eat(2, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
+	category = "tea",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -21,6 +23,7 @@ balanced_nutrient_overrides.register_food("farming:dandelion_tea", {
 
 balanced_nutrient_overrides.register_food("farming:donut_vanilla", {
 	-- item_eat(6)
+	category = "donut",
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -33,6 +36,7 @@ balanced_nutrient_overrides.register_food("farming:donut_vanilla", {
 balanced_nutrient_overrides.register_food("farming:rose_tea", {
 	-- item_eat(2, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
+	category = "tea",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -43,11 +47,12 @@ balanced_nutrient_overrides.register_food("farming:rose_tea", {
 balanced_nutrient_overrides.register_food("farming:sweet_lemon_tea", {
 	-- item_eat(2, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
+	category = "tea",
 	saturation = 2,
 	duration = 300,
 	nutrients = {
 		carbohydrate = 3,
-		vitamin = 1,
+		vitamin = 2,
 	},
 })
 

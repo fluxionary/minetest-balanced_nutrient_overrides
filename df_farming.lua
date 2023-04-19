@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("df_farming:cave_bread", {
 	-- item_eat(5)
+	category = "bread",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -11,6 +12,7 @@ balanced_nutrient_overrides.register_food("df_farming:cave_bread", {
 
 balanced_nutrient_overrides.register_food("df_farming:plump_helmet_1", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -21,6 +23,7 @@ balanced_nutrient_overrides.register_food("df_farming:plump_helmet_1", {
 
 balanced_nutrient_overrides.register_food("df_farming:plump_helmet_2", {
 	-- item_eat(2)
+	category = "mushroom",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -31,6 +34,7 @@ balanced_nutrient_overrides.register_food("df_farming:plump_helmet_2", {
 
 balanced_nutrient_overrides.register_food("df_farming:plump_helmet_3", {
 	-- item_eat(3)
+	category = "mushroom",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -42,6 +46,7 @@ balanced_nutrient_overrides.register_food("df_farming:plump_helmet_3", {
 
 balanced_nutrient_overrides.register_food("df_farming:plump_helmet_4", {
 	-- item_eat(4)
+	category = "mushroom",
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -53,6 +58,7 @@ balanced_nutrient_overrides.register_food("df_farming:plump_helmet_4", {
 
 balanced_nutrient_overrides.register_food("df_farming:plump_helmet_4_picked", {
 	-- item_eat(4)
+	category = "mushroom",
 	saturation = 3,
 	duration = 1000,
 	nutrients = {

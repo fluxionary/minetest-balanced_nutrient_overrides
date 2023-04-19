@@ -19,6 +19,9 @@ def build_food_definition(row):
         lines.append(f'\t-- item_eat({row["item_eat"]}, {row["replace_with"]!r})')
         lines.append(f'\treplace_with = {row["replace_with"]!r},')
 
+    if row.get('category', '') != '':
+        lines.append(f'\tcategory = {row["category"]!r},')
+
     lines.append(f'\tsaturation = {row["s"]},')
     lines.append(f'\tduration = {row["d"]},')
     lines.append(f'\tnutrients = {{')

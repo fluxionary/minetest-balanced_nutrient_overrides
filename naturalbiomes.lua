@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("naturalbiomes:alpine_mushroom", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 400,
 	nutrients = {
@@ -10,6 +11,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:alpine_mushroom", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:banana", {
 	-- item_eat(1)
+	category = "banana",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -19,6 +21,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:banana", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:banana_bunch", {
 	-- item_eat(1)
+	category = "banana",
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -28,6 +31,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:banana_bunch", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:blackberry", {
 	-- item_eat(1)
+	category = "berry",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -38,6 +42,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:blackberry", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:coconut", {
 	-- item_eat(1)
+	category = "coconut",
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -50,6 +55,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:coconut", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:coconut_slice", {
 	-- item_eat(1)
+	category = "coconut",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -62,6 +68,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:coconut_slice", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:cowberry", {
 	-- item_eat(1)
+	category = "berry",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -72,6 +79,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:cowberry", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:hazelnut", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -83,6 +91,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:hazelnut", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:hazelnut_cracked", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -94,6 +103,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:hazelnut_cracked", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:olives", {
 	-- item_eat(1)
+	category = "olive",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -104,6 +114,7 @@ balanced_nutrient_overrides.register_food("naturalbiomes:olives", {
 
 balanced_nutrient_overrides.register_food("naturalbiomes:wildrose", {
 	-- item_eat(1)
+	category = "flower",
 	saturation = 1,
 	duration = 300,
 	nutrients = {

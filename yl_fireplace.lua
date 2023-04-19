@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("yl_fireplace:marshmallow", {
 	-- item_eat(1)
+	category = "sugar",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -9,8 +10,9 @@ balanced_nutrient_overrides.register_food("yl_fireplace:marshmallow", {
 
 balanced_nutrient_overrides.register_food("yl_fireplace:marshmallow_roasted", {
 	-- item_eat(3)
-	saturation = 2,
-	duration = 500,
+	category = "sugar",
+	saturation = 1,
+	duration = 300,
 	nutrients = {
 		carbohydrate = 4,
 	},
@@ -18,6 +20,7 @@ balanced_nutrient_overrides.register_food("yl_fireplace:marshmallow_roasted", {
 
 balanced_nutrient_overrides.register_food("yl_fireplace:sausage", {
 	-- item_eat(5)
+	category = "meat",
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -30,6 +33,7 @@ balanced_nutrient_overrides.register_food("yl_fireplace:sausage", {
 
 balanced_nutrient_overrides.register_food("yl_fireplace:sausage_raw", {
 	-- item_eat(1)
+	category = "sausage",
 	saturation = 2,
 	duration = 500,
 	nutrients = {

@@ -14,6 +14,7 @@ balanced_nutrient_overrides.register_food("sandwiches:american_sandwich", {
 balanced_nutrient_overrides.register_food("sandwiches:bacon_sandwich", {
 	-- item_eat(8, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "bacon",
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -37,6 +38,7 @@ balanced_nutrient_overrides.register_food("sandwiches:banana_and_chocolate_sandw
 
 balanced_nutrient_overrides.register_food("sandwiches:blackberry_jam", {
 	-- item_eat(2)
+	category = "berry",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -48,6 +50,7 @@ balanced_nutrient_overrides.register_food("sandwiches:blackberry_jam", {
 balanced_nutrient_overrides.register_food("sandwiches:blackberry_jam_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "berry",
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -59,6 +62,7 @@ balanced_nutrient_overrides.register_food("sandwiches:blackberry_jam_sandwich", 
 balanced_nutrient_overrides.register_food("sandwiches:blt_sandwich", {
 	-- item_eat(8, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "bacon",
 	saturation = 7,
 	duration = 1100,
 	nutrients = {
@@ -71,6 +75,7 @@ balanced_nutrient_overrides.register_food("sandwiches:blt_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:blueberry_jam", {
 	-- item_eat(2)
+	category = "berry",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -82,6 +87,7 @@ balanced_nutrient_overrides.register_food("sandwiches:blueberry_jam", {
 balanced_nutrient_overrides.register_food("sandwiches:blueberry_jam_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "berry",
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -92,6 +98,7 @@ balanced_nutrient_overrides.register_food("sandwiches:blueberry_jam_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:bread_crumbs", {
 	-- item_eat(1)
+	category = "bread",
 	saturation = 1,
 	duration = 1000,
 	nutrients = {
@@ -101,6 +108,7 @@ balanced_nutrient_overrides.register_food("sandwiches:bread_crumbs", {
 
 balanced_nutrient_overrides.register_food("sandwiches:bread_slice", {
 	-- item_eat(1)
+	category = "bread",
 	saturation = 1,
 	duration = 1000,
 	nutrients = {
@@ -110,6 +118,7 @@ balanced_nutrient_overrides.register_food("sandwiches:bread_slice", {
 
 balanced_nutrient_overrides.register_food("sandwiches:butter_carrots", {
 	-- item_eat(3)
+	category = "carrot",
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -121,6 +130,7 @@ balanced_nutrient_overrides.register_food("sandwiches:butter_carrots", {
 
 balanced_nutrient_overrides.register_food("sandwiches:caramelized_onion", {
 	-- item_eat(3)
+	category = "onion",
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -131,6 +141,7 @@ balanced_nutrient_overrides.register_food("sandwiches:caramelized_onion", {
 balanced_nutrient_overrides.register_food("sandwiches:cheesy_sandwich", {
 	-- item_eat(8, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "cheese",
 	saturation = 8,
 	duration = 1400,
 	nutrients = {
@@ -142,6 +153,7 @@ balanced_nutrient_overrides.register_food("sandwiches:cheesy_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:chicken_strips", {
 	-- item_eat(2)
+	category = "poultry",
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -178,6 +190,7 @@ balanced_nutrient_overrides.register_food("sandwiches:club_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:cooked_salmon", {
 	-- item_eat(4)
+	category = "fish",
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -188,6 +201,7 @@ balanced_nutrient_overrides.register_food("sandwiches:cooked_salmon", {
 
 balanced_nutrient_overrides.register_food("sandwiches:cooked_trout", {
 	-- item_eat(4)
+	category = "fish",
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -198,6 +212,7 @@ balanced_nutrient_overrides.register_food("sandwiches:cooked_trout", {
 
 balanced_nutrient_overrides.register_food("sandwiches:crispy_bacon", {
 	-- item_eat(3)
+	category = "bacon",
 	saturation = 4,
 	duration = 700,
 	nutrients = {
@@ -274,7 +289,7 @@ balanced_nutrient_overrides.register_food("sandwiches:fairy_bread", {
 	duration = 800,
 	nutrients = {
 		carbohydrate = 4,
-		fat = 1,
+		fat = 2,
 		protein = 1,
 	},
 })
@@ -295,6 +310,7 @@ balanced_nutrient_overrides.register_food("sandwiches:fancy_garlic_sandwich", {
 balanced_nutrient_overrides.register_food("sandwiches:garlic_bread", {
 	-- item_eat(4, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "bread",
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -320,6 +336,7 @@ balanced_nutrient_overrides.register_food("sandwiches:gourmet_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:grape_jelly", {
 	-- item_eat(2)
+	category = "grape",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -331,6 +348,7 @@ balanced_nutrient_overrides.register_food("sandwiches:grape_jelly", {
 balanced_nutrient_overrides.register_food("sandwiches:grape_jelly_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "grape",
 	saturation = 5,
 	duration = 800,
 	nutrients = {
@@ -354,6 +372,7 @@ balanced_nutrient_overrides.register_food("sandwiches:grilled_hot_cheesy_sandwic
 
 balanced_nutrient_overrides.register_food("sandwiches:ham", {
 	-- item_eat(3)
+	category = "pork",
 	saturation = 2,
 	duration = 1000,
 	nutrients = {
@@ -443,6 +462,7 @@ balanced_nutrient_overrides.register_food("sandwiches:italian_sandwich", {
 balanced_nutrient_overrides.register_food("sandwiches:jam_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "berry",
 	saturation = 6,
 	duration = 800,
 	nutrients = {
@@ -480,6 +500,7 @@ balanced_nutrient_overrides.register_food("sandwiches:lox_sandwich", {
 balanced_nutrient_overrides.register_food("sandwiches:marinated_chicken_sandwich", {
 	-- item_eat(10, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "poultry",
 	saturation = 5,
 	duration = 1000,
 	nutrients = {
@@ -492,6 +513,7 @@ balanced_nutrient_overrides.register_food("sandwiches:marinated_chicken_sandwich
 
 balanced_nutrient_overrides.register_food("sandwiches:multi_jam", {
 	-- item_eat(2)
+	category = "berry",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -539,6 +561,7 @@ balanced_nutrient_overrides.register_food("sandwiches:pb_and_j_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:peanut_butter", {
 	-- item_eat(2)
+	category = "peanut",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -550,6 +573,7 @@ balanced_nutrient_overrides.register_food("sandwiches:peanut_butter", {
 
 balanced_nutrient_overrides.register_food("sandwiches:peanuts", {
 	-- item_eat(1)
+	category = "peanut",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -560,6 +584,7 @@ balanced_nutrient_overrides.register_food("sandwiches:peanuts", {
 
 balanced_nutrient_overrides.register_food("sandwiches:raspberry_jam", {
 	-- item_eat(2)
+	category = "berry",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -571,6 +596,7 @@ balanced_nutrient_overrides.register_food("sandwiches:raspberry_jam", {
 balanced_nutrient_overrides.register_food("sandwiches:raspberry_jam_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "berry",
 	saturation = 5,
 	duration = 800,
 	nutrients = {
@@ -581,17 +607,19 @@ balanced_nutrient_overrides.register_food("sandwiches:raspberry_jam_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:raw_bacon", {
 	-- item_eat(1)
-	saturation = 2,
+	category = "bacon",
+	saturation = 1,
 	duration = 250,
 	nutrients = {
-		fat = 3,
+		fat = 2,
 		protein = 1,
-		raw_meat = 4,
+		raw_meat = 3,
 	},
 })
 
 balanced_nutrient_overrides.register_food("sandwiches:roasted_potatoes", {
 	-- item_eat(4)
+	category = "potato",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -616,6 +644,7 @@ balanced_nutrient_overrides.register_food("sandwiches:sand_sandwich", {
 
 balanced_nutrient_overrides.register_food("sandwiches:sprinkles", {
 	-- item_eat(1)
+	category = "sugar",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -625,6 +654,7 @@ balanced_nutrient_overrides.register_food("sandwiches:sprinkles", {
 
 balanced_nutrient_overrides.register_food("sandwiches:strawberry_jam", {
 	-- item_eat(2)
+	category = "berry",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -636,6 +666,7 @@ balanced_nutrient_overrides.register_food("sandwiches:strawberry_jam", {
 balanced_nutrient_overrides.register_food("sandwiches:strawberry_jam_sandwich", {
 	-- item_eat(7, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
+	category = "berry",
 	saturation = 5,
 	duration = 800,
 	nutrients = {
@@ -708,11 +739,11 @@ balanced_nutrient_overrides.register_food("sandwiches:tasty_tofu_sandwich", {
 	-- item_eat(8, 'sandwiches:bread_crumbs')
 	replace_with = "sandwiches:bread_crumbs",
 	saturation = 6,
-	duration = 1100,
+	duration = 1400,
 	nutrients = {
 		carbohydrate = 5,
 		fat = 4,
-		protein = 5,
+		protein = 7,
 		vitamin = 2,
 	},
 })
@@ -738,20 +769,21 @@ balanced_nutrient_overrides.register_food("sandwiches:tofu_sandwich", {
 	nutrients = {
 		carbohydrate = 2,
 		fat = 2,
-		protein = 4,
+		protein = 6,
 		vitamin = 4,
 	},
 })
 
 balanced_nutrient_overrides.register_food("sandwiches:trifolat_mushrooms", {
 	-- item_eat(3)
+	category = "mushroom",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
-		carbohydrate = 1,
-		fat = 1,
-		protein = 1,
-		vitamin = 1,
+		carbohydrate = 2,
+		fat = 2,
+		protein = 2,
+		vitamin = 2,
 	},
 })
 

@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("bamboo:sprout", {
 	-- item_eat(2)
+	category = "sprout",
 	saturation = 2,
 	duration = 300,
 	nutrients = {

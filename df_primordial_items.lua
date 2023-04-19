@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("df_primordial_items:diced_mushroom", {
 	-- item_eat(1)
+	category = "mushroom",
 	saturation = 1,
 	duration = 600,
 	nutrients = {
@@ -10,6 +11,7 @@ balanced_nutrient_overrides.register_food("df_primordial_items:diced_mushroom", 
 
 balanced_nutrient_overrides.register_food("df_primordial_items:glowtato", {
 	-- item_eat(8)
+	category = "potato",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -21,6 +23,7 @@ balanced_nutrient_overrides.register_food("df_primordial_items:glowtato", {
 
 balanced_nutrient_overrides.register_food("df_primordial_items:primordial_fruit", {
 	-- item_eat(8)
+	category = "fruit",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {

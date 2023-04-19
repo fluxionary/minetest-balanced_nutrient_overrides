@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("mobs:meat", {
 	-- item_eat(8)
+	category = "meat",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -10,6 +11,7 @@ balanced_nutrient_overrides.register_food("mobs:meat", {
 
 balanced_nutrient_overrides.register_food("mobs:meat_raw", {
 	-- item_eat(3)
+	category = "meat",
 	saturation = 3,
 	duration = 500,
 	nutrients = {
@@ -21,6 +23,7 @@ balanced_nutrient_overrides.register_food("mobs:meat_raw", {
 
 balanced_nutrient_overrides.register_food("mobs:meatblock", {
 	-- item_eat(20)
+	category = "meat",
 	saturation = 20,
 	duration = 1000,
 	nutrients = {
@@ -31,6 +34,7 @@ balanced_nutrient_overrides.register_food("mobs:meatblock", {
 
 balanced_nutrient_overrides.register_food("mobs:meatblock_raw", {
 	-- item_eat(20)
+	category = "meat",
 	saturation = 20,
 	duration = 500,
 	nutrients = {

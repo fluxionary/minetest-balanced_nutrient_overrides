@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("moretrees:acorn_muffin", {
 	-- item_eat(4)
+	category = "muffin",
 	saturation = 3,
 	duration = 1000,
 	nutrients = {
@@ -11,6 +12,7 @@ balanced_nutrient_overrides.register_food("moretrees:acorn_muffin", {
 
 balanced_nutrient_overrides.register_food("moretrees:cedar_nuts", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -22,6 +24,7 @@ balanced_nutrient_overrides.register_food("moretrees:cedar_nuts", {
 balanced_nutrient_overrides.register_food("moretrees:coconut_milk", {
 	-- item_eat(2, 'vessels:drinking_glass')
 	replace_with = "vessels:drinking_glass",
+	category = "coconut",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -34,6 +37,7 @@ balanced_nutrient_overrides.register_food("moretrees:coconut_milk", {
 
 balanced_nutrient_overrides.register_food("moretrees:date", {
 	-- item_eat(1)
+	category = "date",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -44,6 +48,7 @@ balanced_nutrient_overrides.register_food("moretrees:date", {
 
 balanced_nutrient_overrides.register_food("moretrees:date_nut_bar", {
 	-- item_eat(4)
+	category = "datenut",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -56,6 +61,7 @@ balanced_nutrient_overrides.register_food("moretrees:date_nut_bar", {
 
 balanced_nutrient_overrides.register_food("moretrees:date_nut_cake", {
 	-- item_eat(32)
+	category = "datenut",
 	saturation = 20,
 	duration = 3200,
 	nutrients = {
@@ -68,6 +74,7 @@ balanced_nutrient_overrides.register_food("moretrees:date_nut_cake", {
 
 balanced_nutrient_overrides.register_food("moretrees:date_nut_snack", {
 	-- item_eat(4)
+	category = "datenut",
 	saturation = 4,
 	duration = 800,
 	nutrients = {
@@ -80,6 +87,7 @@ balanced_nutrient_overrides.register_food("moretrees:date_nut_snack", {
 
 balanced_nutrient_overrides.register_food("moretrees:fir_nuts", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -90,8 +98,9 @@ balanced_nutrient_overrides.register_food("moretrees:fir_nuts", {
 
 balanced_nutrient_overrides.register_food("moretrees:raw_coconut", {
 	-- item_eat(4)
+	category = "coconut",
 	saturation = 2,
-	duration = 300,
+	duration = 400,
 	nutrients = {
 		carbohydrate = 1,
 		fat = 2,
@@ -101,6 +110,7 @@ balanced_nutrient_overrides.register_food("moretrees:raw_coconut", {
 
 balanced_nutrient_overrides.register_food("moretrees:spruce_nuts", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {

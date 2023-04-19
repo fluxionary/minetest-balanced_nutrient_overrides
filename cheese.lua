@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("cheese:asiago", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -37,6 +38,7 @@ balanced_nutrient_overrides.register_food("cheese:blazing_exquisitess", {
 
 balanced_nutrient_overrides.register_food("cheese:brie", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -57,6 +59,7 @@ balanced_nutrient_overrides.register_food("cheese:bucket_blooming_essence", {
 
 balanced_nutrient_overrides.register_food("cheese:caciocavallo", {
 	-- item_eat(8)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -81,6 +84,7 @@ balanced_nutrient_overrides.register_food("cheese:desert_delicacy", {
 
 balanced_nutrient_overrides.register_food("cheese:emmental", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -92,6 +96,7 @@ balanced_nutrient_overrides.register_food("cheese:emmental", {
 balanced_nutrient_overrides.register_food("cheese:fondue", {
 	-- item_eat(8, 'default:copper_ingot 3')
 	replace_with = "default:copper_ingot 3",
+	category = "cheese",
 	saturation = 8,
 	duration = 1200,
 	nutrients = {
@@ -102,6 +107,7 @@ balanced_nutrient_overrides.register_food("cheese:fondue", {
 
 balanced_nutrient_overrides.register_food("cheese:fontal", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -128,6 +134,7 @@ balanced_nutrient_overrides.register_food("cheese:frosted_tomme", {
 balanced_nutrient_overrides.register_food("cheese:fruit_tonic", {
 	-- item_eat(8, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
+	category = "juice",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -139,6 +146,7 @@ balanced_nutrient_overrides.register_food("cheese:fruit_tonic", {
 
 balanced_nutrient_overrides.register_food("cheese:gorgonzola", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -149,6 +157,7 @@ balanced_nutrient_overrides.register_food("cheese:gorgonzola", {
 
 balanced_nutrient_overrides.register_food("cheese:gouda", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -159,6 +168,7 @@ balanced_nutrient_overrides.register_food("cheese:gouda", {
 
 balanced_nutrient_overrides.register_food("cheese:gruyere", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -169,6 +179,7 @@ balanced_nutrient_overrides.register_food("cheese:gruyere", {
 
 balanced_nutrient_overrides.register_food("cheese:ice_cream_base", {
 	-- item_eat(3)
+	category = "ice cream",
 	saturation = 3,
 	duration = 800,
 	nutrients = {
@@ -180,6 +191,7 @@ balanced_nutrient_overrides.register_food("cheese:ice_cream_base", {
 
 balanced_nutrient_overrides.register_food("cheese:monteray_jack", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -190,6 +202,7 @@ balanced_nutrient_overrides.register_food("cheese:monteray_jack", {
 
 balanced_nutrient_overrides.register_food("cheese:mozzarella", {
 	-- item_eat(4)
+	category = "cheese",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -200,8 +213,9 @@ balanced_nutrient_overrides.register_food("cheese:mozzarella", {
 
 balanced_nutrient_overrides.register_food("cheese:neapolitan_ice_cream", {
 	-- item_eat(11)
+	category = "ice cream",
 	saturation = 4,
-	duration = 800,
+	duration = 1200,
 	nutrients = {
 		carbohydrate = 3,
 		fat = 3,
@@ -226,6 +240,7 @@ balanced_nutrient_overrides.register_food("cheese:noxious_cheddar", {
 
 balanced_nutrient_overrides.register_food("cheese:parmesan", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -236,6 +251,7 @@ balanced_nutrient_overrides.register_food("cheese:parmesan", {
 
 balanced_nutrient_overrides.register_food("cheese:ricotta", {
 	-- item_eat(5)
+	category = "cheese",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -261,6 +277,7 @@ balanced_nutrient_overrides.register_food("cheese:rose_ambrosia", {
 
 balanced_nutrient_overrides.register_food("cheese:scamorza", {
 	-- item_eat(4)
+	category = "cheese",
 	saturation = 4,
 	duration = 1000,
 	nutrients = {
@@ -286,6 +303,7 @@ balanced_nutrient_overrides.register_food("cheese:shining_formage", {
 
 balanced_nutrient_overrides.register_food("cheese:smoked_scamorza", {
 	-- item_eat(7)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -311,6 +329,7 @@ balanced_nutrient_overrides.register_food("cheese:sparkling_cheese", {
 
 balanced_nutrient_overrides.register_food("cheese:stilton", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -321,6 +340,7 @@ balanced_nutrient_overrides.register_food("cheese:stilton", {
 
 balanced_nutrient_overrides.register_food("cheese:stracchino", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -331,6 +351,7 @@ balanced_nutrient_overrides.register_food("cheese:stracchino", {
 
 balanced_nutrient_overrides.register_food("cheese:toma", {
 	-- item_eat(2)
+	category = "cheese",
 	saturation = 4,
 	duration = 1200,
 	nutrients = {
@@ -341,6 +362,7 @@ balanced_nutrient_overrides.register_food("cheese:toma", {
 
 balanced_nutrient_overrides.register_food("cheese:vegan_ice_cream_base", {
 	-- item_eat(3)
+	category = "ice cream",
 	saturation = 3,
 	duration = 800,
 	nutrients = {

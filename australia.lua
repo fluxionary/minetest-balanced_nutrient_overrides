@@ -1,5 +1,6 @@
 balanced_nutrient_overrides.register_food("australia:cherry", {
 	-- item_eat(1)
+	category = "cherry",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -10,6 +11,7 @@ balanced_nutrient_overrides.register_food("australia:cherry", {
 
 balanced_nutrient_overrides.register_food("australia:ferntuber_roasted", {
 	-- item_eat(3)
+	category = "root",
 	saturation = 3,
 	duration = 600,
 	nutrients = {
@@ -21,10 +23,11 @@ balanced_nutrient_overrides.register_food("australia:ferntuber_roasted", {
 
 balanced_nutrient_overrides.register_food("australia:fiddlehead", {
 	-- item_eat(0)
+	category = "fern",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
-		carbohydrate = 1,
+		vitamin = 1,
 	},
 	after_eat = function(itemstack, eater, pointed_thing)
 		balanced_nutrient_overrides.add_effects(eater, { poison = { 1, 1 } })
@@ -33,6 +36,7 @@ balanced_nutrient_overrides.register_food("australia:fiddlehead", {
 
 balanced_nutrient_overrides.register_food("australia:fiddlehead_roasted", {
 	-- item_eat(1)
+	category = "fern",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -43,6 +47,7 @@ balanced_nutrient_overrides.register_food("australia:fiddlehead_roasted", {
 
 balanced_nutrient_overrides.register_food("australia:kelp_giant_brown", {
 	-- item_eat(1)
+	category = "seaweed",
 	saturation = 2,
 	duration = 600,
 	nutrients = {
@@ -52,6 +57,7 @@ balanced_nutrient_overrides.register_food("australia:kelp_giant_brown", {
 
 balanced_nutrient_overrides.register_food("australia:lilly_pilly_berries", {
 	-- item_eat(1)
+	category = "berry",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -62,6 +68,7 @@ balanced_nutrient_overrides.register_food("australia:lilly_pilly_berries", {
 
 balanced_nutrient_overrides.register_food("australia:macadamia", {
 	-- item_eat(1)
+	category = "seed",
 	saturation = 2,
 	duration = 800,
 	nutrients = {
@@ -73,6 +80,7 @@ balanced_nutrient_overrides.register_food("australia:macadamia", {
 
 balanced_nutrient_overrides.register_food("australia:mangrove_apple", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -83,6 +91,7 @@ balanced_nutrient_overrides.register_food("australia:mangrove_apple", {
 
 balanced_nutrient_overrides.register_food("australia:moreton_bay_fig", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
@@ -93,6 +102,7 @@ balanced_nutrient_overrides.register_food("australia:moreton_bay_fig", {
 
 balanced_nutrient_overrides.register_food("australia:quandong", {
 	-- item_eat(1)
+	category = "fruit",
 	saturation = 1,
 	duration = 300,
 	nutrients = {
