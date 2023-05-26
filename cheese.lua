@@ -68,6 +68,20 @@ balanced_nutrient_overrides.register_food("cheese:caciocavallo", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("cheese:coconut_milk", {
+	-- item_eat(2, 'vessels:drinking_glass')
+	replace_with = "vessels:drinking_glass",
+	category = "coconut",
+	saturation = 2,
+	duration = 800,
+	nutrients = {
+		carbohydrate = 1,
+		fat = 1,
+		protein = 1,
+		vitamin = 1,
+	},
+})
+
 balanced_nutrient_overrides.register_food("cheese:desert_delicacy", {
 	-- item_eat(4)
 	saturation = 4,

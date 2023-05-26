@@ -51,6 +51,30 @@ balanced_nutrient_overrides.register_food("ethereal:bucket_cactus", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("ethereal:calamari_cooked", {
+	-- item_eat(2)
+	category = "squid",
+	saturation = 5,
+	duration = 1300,
+	nutrients = {
+		carbohydrate = 4,
+		fat = 4,
+		protein = 6,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:calamari_raw", {
+	-- item_eat(2)
+	category = "squid",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("ethereal:candied_lemon", {
 	-- item_eat(5)
 	category = "candy",
@@ -132,6 +156,18 @@ balanced_nutrient_overrides.register_food("ethereal:fish_blueram", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("ethereal:fish_carp", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("ethereal:fish_catfish", {
 	-- item_eat(2)
 	category = "fish",
@@ -168,6 +204,18 @@ balanced_nutrient_overrides.register_food("ethereal:fish_clownfish", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("ethereal:fish_cod", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("ethereal:fish_cooked", {
 	-- item_eat(5)
 	category = "fish",
@@ -192,6 +240,53 @@ balanced_nutrient_overrides.register_food("ethereal:fish_coy", {
 })
 
 balanced_nutrient_overrides.register_food("ethereal:fish_flathead", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_flounder", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_mackerel", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_n_chips", {
+	-- item_eat(2)
+	saturation = 5,
+	duration = 1200,
+	nutrients = {
+		carbohydrate = 6,
+		fat = 2,
+		protein = 6,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_parrot", {
 	-- item_eat(2)
 	category = "fish",
 	saturation = 2,
@@ -239,7 +334,67 @@ balanced_nutrient_overrides.register_food("ethereal:fish_plaice", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("ethereal:fish_redsnapper", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("ethereal:fish_salmon", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_shrimp_cooked", {
+	-- item_eat(5)
+	category = "shrimp",
+	saturation = 4,
+	duration = 1000,
+	nutrients = {
+		fat = 2,
+		protein = 6,
+		vitamin = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_tetra", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_tilapia", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:fish_trevally", {
 	-- item_eat(2)
 	category = "fish",
 	saturation = 2,
@@ -263,6 +418,18 @@ balanced_nutrient_overrides.register_food("ethereal:fish_trout", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("ethereal:fish_tuna", {
+	-- item_eat(2)
+	category = "fish",
+	saturation = 2,
+	duration = 500,
+	nutrients = {
+		fat = 1,
+		protein = 3,
+		raw_meat = 4,
+	},
+})
+
 balanced_nutrient_overrides.register_food("ethereal:fugu", {
 	-- item_eat(4)
 	category = "fish",
@@ -272,6 +439,18 @@ balanced_nutrient_overrides.register_food("ethereal:fugu", {
 		fat = 1,
 		protein = 5,
 		raw_meat = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:garlic_shrimp", {
+	-- item_eat(2)
+	saturation = 7,
+	duration = 1300,
+	nutrients = {
+		carbohydrate = 2,
+		fat = 8,
+		protein = 12,
+		vitamin = 6,
 	},
 })
 
@@ -298,6 +477,16 @@ balanced_nutrient_overrides.register_food("ethereal:hearty_stew", {
 		fat = 2,
 		protein = 8,
 		vitamin = 4,
+	},
+})
+
+balanced_nutrient_overrides.register_food("ethereal:jellyfish_salad", {
+	-- item_eat(2)
+	saturation = 3,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 3,
+		protein = 8,
 	},
 })
 

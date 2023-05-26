@@ -58,6 +58,18 @@ balanced_nutrient_overrides.register_food("petz:candy_cane", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("petz:cheese", {
+	-- item_eat(4)
+	category = "cheese",
+	saturation = 4,
+	duration = 1000,
+	nutrients = {
+		fat = 4,
+		protein = 4,
+		vitamin = 2,
+	},
+})
+
 balanced_nutrient_overrides.register_food("petz:chicken_egg", {
 	-- item_eat(2)
 	category = "egg",

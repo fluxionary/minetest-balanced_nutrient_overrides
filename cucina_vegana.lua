@@ -134,6 +134,38 @@ balanced_nutrient_overrides.register_food("cucina_vegana:ciabatta_bread", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("cucina_vegana:corn", {
+	-- item_eat(3)
+	category = "corn",
+	saturation = 1,
+	duration = 300,
+	nutrients = {
+		carbohydrate = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("cucina_vegana:corn_oil", {
+	-- item_eat(2)
+	category = "oil",
+	saturation = 1,
+	duration = 1000,
+	nutrients = {
+		fat = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("cucina_vegana:cucumber_in_glass", {
+	-- item_eat(15, 'vessels:glass_bottle')
+	replace_with = "vessels:glass_bottle",
+	category = "cucumber",
+	saturation = 3,
+	duration = 600,
+	nutrients = {
+		carbohydrate = 5,
+		vitamin = 1,
+	},
+})
+
 balanced_nutrient_overrides.register_food("cucina_vegana:dandelion_honey", {
 	-- item_eat(3)
 	category = "sugar",
@@ -378,6 +410,17 @@ balanced_nutrient_overrides.register_food("cucina_vegana:pizza_vegana", {
 	},
 })
 
+balanced_nutrient_overrides.register_food("cucina_vegana:popcorn", {
+	-- item_eat(4)
+	category = "corn",
+	saturation = 3,
+	duration = 1000,
+	nutrients = {
+		carbohydrate = 4,
+		fat = 2,
+	},
+})
+
 balanced_nutrient_overrides.register_food("cucina_vegana:potato", {
 	-- item_eat(5)
 	category = "potato",
@@ -617,5 +660,16 @@ balanced_nutrient_overrides.register_food("cucina_vegana:vegan_sushi", {
 		fat = 2,
 		protein = 4,
 		vitamin = 2,
+	},
+})
+
+balanced_nutrient_overrides.register_food("cucina_vegana:vine_grape", {
+	-- item_eat(2)
+	category = "grape",
+	saturation = 1,
+	duration = 300,
+	nutrients = {
+		carbohydrate = 1,
+		vitamin = 1,
 	},
 })
