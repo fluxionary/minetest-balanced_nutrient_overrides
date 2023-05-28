@@ -199,6 +199,9 @@ balanced_nutrient_overrides.register_food("farming:carrot", {
 		carbohydrate = 2,
 		vitamin = 1,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("farming:carrot_gold", {
@@ -209,6 +212,9 @@ balanced_nutrient_overrides.register_food("farming:carrot_gold", {
 		carbohydrate = 2,
 		vitamin = 8,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 1000 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("farming:carrot_juice", {
@@ -221,6 +227,9 @@ balanced_nutrient_overrides.register_food("farming:carrot_juice", {
 		carbohydrate = 2,
 		vitamin = 2,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("farming:cheese_vegan", {

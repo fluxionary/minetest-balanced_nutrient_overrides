@@ -116,6 +116,9 @@ balanced_nutrient_overrides.register_food("canned_food:canned_carrot", {
 		carbohydrate = 4,
 		vitamin = 2,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 600 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("canned_food:canned_carrot_plus", {
@@ -128,6 +131,9 @@ balanced_nutrient_overrides.register_food("canned_food:canned_carrot_plus", {
 		carbohydrate = 7,
 		vitamin = 5,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 800 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("canned_food:canned_chili_pepper", {

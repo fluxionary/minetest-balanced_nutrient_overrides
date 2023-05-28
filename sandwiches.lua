@@ -126,6 +126,9 @@ balanced_nutrient_overrides.register_food("sandwiches:butter_carrots", {
 		fat = 2,
 		vitamin = 1,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("sandwiches:caramelized_onion", {

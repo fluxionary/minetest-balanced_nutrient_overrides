@@ -43,6 +43,9 @@ balanced_nutrient_overrides.register_food("icecream:carrot", {
 		fat = 3,
 		vitamin = 2,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("icecream:chocolate", {

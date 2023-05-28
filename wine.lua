@@ -246,6 +246,9 @@ balanced_nutrient_overrides.register_food("wine:glass_sparkling_carrot_juice", {
 		carbohydrate = 4,
 		vitamin = 2,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("wine:glass_tequila", {

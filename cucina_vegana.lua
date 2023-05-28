@@ -100,6 +100,9 @@ balanced_nutrient_overrides.register_food("cucina_vegana:carrot", {
 		carbohydrate = 1,
 		vitamin = 1,
 	},
+	after_eat = function(itemstack, eater, pointed_thing)
+		balanced_nutrient_overrides.add_effects(eater, { nightvision = { true, 300 } })
+	end,
 })
 
 balanced_nutrient_overrides.register_food("cucina_vegana:chili", {
