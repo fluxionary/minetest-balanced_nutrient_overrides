@@ -24,6 +24,9 @@ def build_food_definition(row):
 
     lines.append(f'\tsaturation = {row["s"]},')
     lines.append(f'\tduration = {row["d"]},')
+    if row['xd'] and int(row['xd']) > 0:
+        lines.append(f'\textra_time_between_uses = {row["xd"]},')
+
     lines.append(f'\tnutrients = {{')
 
     if int(row['c']) > 0:

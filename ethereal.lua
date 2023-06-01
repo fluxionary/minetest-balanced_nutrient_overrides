@@ -458,9 +458,10 @@ balanced_nutrient_overrides.register_food("ethereal:golden_apple", {
 	-- item_eat(2)
 	category = "apple",
 	saturation = 1,
-	duration = 150,
+	duration = 30,
+	extra_time_between_uses = 30,
 	nutrients = {
-		vitamin = 6,
+		vitamin = 12,
 	},
 	after_eat = function(itemstack, eater, pointed_thing)
 		balanced_nutrient_overrides.attributes(eater, { hp = 20 })
