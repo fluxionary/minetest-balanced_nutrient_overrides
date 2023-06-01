@@ -14,7 +14,7 @@ balanced_nutrient_overrides.register_food("canned_food:banana_jam", {
 	-- item_eat(7, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "banana",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 10,
@@ -26,7 +26,7 @@ balanced_nutrient_overrides.register_food("canned_food:blackberry_jam", {
 	-- item_eat(8, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "berry",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 12,
@@ -38,7 +38,7 @@ balanced_nutrient_overrides.register_food("canned_food:blueberry_jam", {
 	-- item_eat(8, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "berry",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 12,
@@ -50,7 +50,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_beans", {
 	-- item_eat(7, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "bean",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 4,
@@ -62,7 +62,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_beetroot", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "beet",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 7,
@@ -74,7 +74,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_beetroot_plus", {
 	-- item_eat(12, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "beet",
-	saturation = 5,
+	saturation = 4,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 10,
@@ -86,7 +86,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_cabbage", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "cabbage",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 5,
@@ -98,7 +98,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_cabbage_plus", {
 	-- item_eat(12, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "cabbage",
-	saturation = 5,
+	saturation = 4,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 8,
@@ -140,7 +140,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_chili_pepper", {
 	-- item_eat(7, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "chili",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 4,
@@ -152,7 +152,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_chili_pepper_plus"
 	-- item_eat(14, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "chili",
-	saturation = 6,
+	saturation = 5,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 7,
@@ -164,7 +164,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_coconut", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "coconut",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 5,
@@ -237,7 +237,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_mushrooms", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "mushroom",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 4,
@@ -250,7 +250,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_mushrooms_plus", {
 	-- item_eat(12, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "mushroom",
-	saturation = 5,
+	saturation = 4,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 7,
@@ -263,7 +263,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_onion", {
 	-- item_eat(5, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "onion",
-	saturation = 4,
+	saturation = 3,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 7,
@@ -275,7 +275,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_onion_plus", {
 	-- item_eat(10, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "onion",
-	saturation = 4,
+	saturation = 3,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 10,
@@ -287,7 +287,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_peas", {
 	-- item_eat(10, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "pea",
-	saturation = 8,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 4,
@@ -300,7 +300,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_pineapple", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "pineapple",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 7,
@@ -312,7 +312,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_potato", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "potato",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 10,
@@ -323,7 +323,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_potato_plus", {
 	-- item_eat(12, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "potato",
-	saturation = 5,
+	saturation = 4,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 13,
@@ -370,7 +370,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_wild_onion", {
 	-- item_eat(10, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "onion",
-	saturation = 4,
+	saturation = 3,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 7,
@@ -382,7 +382,7 @@ balanced_nutrient_overrides.register_food("canned_food:canned_wild_onion_plus", 
 	-- item_eat(20, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "onion",
-	saturation = 4,
+	saturation = 3,
 	duration = 800,
 	nutrients = {
 		carbohydrate = 10,
@@ -394,7 +394,7 @@ balanced_nutrient_overrides.register_food("canned_food:dandelion_jam", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "flower",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		vitamin = 10,
@@ -405,7 +405,7 @@ balanced_nutrient_overrides.register_food("canned_food:grape_jam", {
 	-- item_eat(11, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "grape",
-	saturation = 4,
+	saturation = 3,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 8,
@@ -452,7 +452,7 @@ balanced_nutrient_overrides.register_food("canned_food:pine_nuts_jar", {
 	-- item_eat(10, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "seed",
-	saturation = 8,
+	saturation = 5,
 	duration = 1000,
 	nutrients = {
 		carbohydrate = 4,
@@ -466,7 +466,7 @@ balanced_nutrient_overrides.register_food("canned_food:raspberry_jam", {
 	-- item_eat(8, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "berry",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 10,
@@ -478,7 +478,7 @@ balanced_nutrient_overrides.register_food("canned_food:rhubarb_jam", {
 	-- item_eat(8, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "rhubarb",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 4,
@@ -490,7 +490,7 @@ balanced_nutrient_overrides.register_food("canned_food:rose_jam", {
 	-- item_eat(6, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "flower",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		vitamin = 10,
@@ -501,7 +501,7 @@ balanced_nutrient_overrides.register_food("canned_food:strawberry_jam", {
 	-- item_eat(7, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "berry",
-	saturation = 5,
+	saturation = 4,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 7,
@@ -513,7 +513,7 @@ balanced_nutrient_overrides.register_food("canned_food:wild_blueberry_jam", {
 	-- item_eat(15, 'vessels:glass_bottle')
 	replace_with = "vessels:glass_bottle",
 	category = "berry",
-	saturation = 6,
+	saturation = 5,
 	duration = 600,
 	nutrients = {
 		carbohydrate = 9,
